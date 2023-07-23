@@ -1,0 +1,25 @@
+baseURL: 'https://aicube.fun/'
+languageCode: 'en-us'
+title: 'AICube.FUN'
+theme: 'financlub'
+hasCJKLanguage: true
+summaryLength: 42
+taxonomies:
+  tags: 'tags'
+  category: 'category'
+  social: 'social'
+  author: 'author'
+params:
+  catesytles:
+    marketing: is-warning
+    efficency: is-info
+    model: is-success
+  adsensePubId: 7398757278741889
+  adsenseUnitId: 7456114770
+  social:
+    github: https://github.com/etrobot/hugo-theme-financlub
+    twitter: https://twitter.com/etrobot
+  mj-suffix:
+    jarvis-ft: 'AI,finance,city --v 5'
+    friday-wall: 'futuristic,wallstreet --v 5'
+    ultron-bloom: 'stock monitors, neon --v 5'

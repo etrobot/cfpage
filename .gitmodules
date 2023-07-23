@@ -1,3 +1,4 @@
 [submodule "hugo-theme-financlub"]
-	path = hugo-theme-financlub
+	path = theme/financlub
 	url = https://github.com/etrobot/hugo-theme-financlub
+
