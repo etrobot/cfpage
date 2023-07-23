@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Category on AICube.FUN</title>
+    <link>https://aicube.fun/category/</link>
+    <description>Recent content in Category on AICube.FUN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jun 2023 00:27:00 -0600</lastBuildDate><atom:link href="https://aicube.fun/category/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>marketing</title>
+      <link>https://aicube.fun/category/marketing/</link>
+      <pubDate>Wed, 14 Jun 2023 00:27:00 -0600</pubDate>
+      
+      <guid>https://aicube.fun/category/marketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>model</title>
+      <link>https://aicube.fun/category/model/</link>
+      <pubDate>Sat, 10 Jun 2023 10:05:00 -0600</pubDate>
+      
+      <guid>https://aicube.fun/category/model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>efficency</title>
+      <link>https://aicube.fun/category/efficency/</link>
+      <pubDate>Fri, 09 Jun 2023 18:52:46 -0600</pubDate>
+      
+      <guid>https://aicube.fun/category/efficency/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
