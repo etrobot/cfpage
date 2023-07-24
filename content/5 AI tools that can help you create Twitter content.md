@@ -3,11 +3,12 @@
 title: "5 AI tools that can help you create Twitter content"
 date: 2023-07-22T18:52:46-06:00
 draft: true
-tags: ['oil', 'Saudi Arabia', 'price']
-category: efficency
+tags: ['Twitter', 'AI tool']
+category: marketing
 author: Frank Lin
 ---
 
+### Bing:
 There are AI-powered content creation tools that can help you generate Twitter content. These tools can't replace great writers, but they can help writers and marketers save time and use their skills for more strategic aspects of content creation. You can use these tools to generate tweet copy, develop catchy Twitter handles, and find trending topics to share on your Twitter account. Here are some of the best AI-powered content generation and strategy tools that can help you create Twitter content:
 
 1. Hootsuite Enhance: This tool uses AI to help you create social media content that is optimized for engagement. It can help you generate captions, hashtags, and even images for your Twitter posts.
