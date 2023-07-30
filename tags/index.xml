@@ -6,7 +6,295 @@
     <description>Recent content in Tags on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jul 2023 06:15:40 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jul 2023 09:15:23 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT</title>
+      <link>https://aicube.fun/tags/chatgpt/</link>
+      <pubDate>Sun, 30 Jul 2023 09:15:23 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub Copilot</title>
+      <link>https://aicube.fun/tags/github-copilot/</link>
+      <pubDate>Sun, 30 Jul 2023 09:15:23 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/github-copilot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenAI</title>
+      <link>https://aicube.fun/tags/openai/</link>
+      <pubDate>Sun, 30 Jul 2023 09:15:23 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/openai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPT</title>
+      <link>https://aicube.fun/tags/gpt/</link>
+      <pubDate>Sun, 30 Jul 2023 09:14:13 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/gpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LLM</title>
+      <link>https://aicube.fun/tags/llm/</link>
+      <pubDate>Sun, 30 Jul 2023 09:14:13 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/llm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Petals</title>
+      <link>https://aicube.fun/tags/petals/</link>
+      <pubDate>Sun, 30 Jul 2023 09:14:13 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/petals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformer</title>
+      <link>https://aicube.fun/tags/transformer/</link>
+      <pubDate>Sun, 30 Jul 2023 09:14:13 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/transformer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPT Engineer</title>
+      <link>https://aicube.fun/tags/gpt-engineer/</link>
+      <pubDate>Sun, 30 Jul 2023 09:13:01 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/gpt-engineer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPT-3</title>
+      <link>https://aicube.fun/tags/gpt-3/</link>
+      <pubDate>Sun, 30 Jul 2023 09:13:01 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/gpt-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPT-4</title>
+      <link>https://aicube.fun/tags/gpt-4/</link>
+      <pubDate>Sun, 30 Jul 2023 09:13:01 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/gpt-4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenAI API</title>
+      <link>https://aicube.fun/tags/openai-api/</link>
+      <pubDate>Sun, 30 Jul 2023 09:11:59 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/openai-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://aicube.fun/tags/python/</link>
+      <pubDate>Sun, 30 Jul 2023 09:11:59 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scikit-learn</title>
+      <link>https://aicube.fun/tags/scikit-learn/</link>
+      <pubDate>Sun, 30 Jul 2023 09:11:59 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/scikit-learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CUDA</title>
+      <link>https://aicube.fun/tags/cuda/</link>
+      <pubDate>Sun, 30 Jul 2023 09:07:27 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/cuda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DeepFaceLab</title>
+      <link>https://aicube.fun/tags/deepfacelab/</link>
+      <pubDate>Sun, 30 Jul 2023 09:07:27 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/deepfacelab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPU</title>
+      <link>https://aicube.fun/tags/gpu/</link>
+      <pubDate>Sun, 30 Jul 2023 09:07:27 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/gpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PPO algorithm</title>
+      <link>https://aicube.fun/tags/ppo-algorithm/</link>
+      <pubDate>Sun, 30 Jul 2023 09:05:19 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/ppo-algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>https://aicube.fun/tags/reinforcement-learning/</link>
+      <pubDate>Sun, 30 Jul 2023 09:05:19 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unity</title>
+      <link>https://aicube.fun/tags/unity/</link>
+      <pubDate>Sun, 30 Jul 2023 09:05:19 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/unity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>https://aicube.fun/tags/github/</link>
+      <pubDate>Sun, 30 Jul 2023 09:03:29 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rupe</title>
+      <link>https://aicube.fun/tags/rupe/</link>
+      <pubDate>Sun, 30 Jul 2023 09:03:29 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/rupe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stable Diffusion</title>
+      <link>https://aicube.fun/tags/stable-diffusion/</link>
+      <pubDate>Sun, 30 Jul 2023 09:03:29 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/stable-diffusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Fakes</title>
+      <link>https://aicube.fun/tags/deep-fakes/</link>
+      <pubDate>Sun, 30 Jul 2023 08:57:44 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/deep-fakes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dragon</title>
+      <link>https://aicube.fun/tags/dragon/</link>
+      <pubDate>Sun, 30 Jul 2023 08:57:44 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/dragon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GANs</title>
+      <link>https://aicube.fun/tags/gans/</link>
+      <pubDate>Sun, 30 Jul 2023 08:57:44 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/gans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic 1111</title>
+      <link>https://aicube.fun/tags/automatic-1111/</link>
+      <pubDate>Sun, 30 Jul 2023 08:52:46 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/automatic-1111/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conf UI</title>
+      <link>https://aicube.fun/tags/conf-ui/</link>
+      <pubDate>Sun, 30 Jul 2023 08:52:46 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/conf-ui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Colab</title>
+      <link>https://aicube.fun/tags/google-colab/</link>
+      <pubDate>Sun, 30 Jul 2023 08:52:46 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/google-colab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SDXL</title>
+      <link>https://aicube.fun/tags/sdxl/</link>
+      <pubDate>Sun, 30 Jul 2023 08:52:46 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/sdxl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic1111</title>
+      <link>https://aicube.fun/tags/automatic1111/</link>
+      <pubDate>Sun, 30 Jul 2023 08:51:47 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/automatic1111/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RuBE</title>
+      <link>https://aicube.fun/tags/rube/</link>
+      <pubDate>Sun, 30 Jul 2023 08:51:47 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/rube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deepfake Model</title>
+      <link>https://aicube.fun/tags/deepfake-model/</link>
+      <pubDate>Sun, 30 Jul 2023 08:50:43 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/deepfake-model/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Canva</title>
       <link>https://aicube.fun/tags/canva/</link>
@@ -22,24 +310,6 @@
       <pubDate>Sun, 30 Jul 2023 06:15:40 +0000</pubDate>
       
       <guid>https://aicube.fun/tags/google-sheets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GPT-3</title>
-      <link>https://aicube.fun/tags/gpt-3/</link>
-      <pubDate>Sun, 30 Jul 2023 06:15:40 +0000</pubDate>
-      
-      <guid>https://aicube.fun/tags/gpt-3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ChatGPT</title>
-      <link>https://aicube.fun/tags/chatgpt/</link>
-      <pubDate>Sun, 30 Jul 2023 06:13:35 +0000</pubDate>
-      
-      <guid>https://aicube.fun/tags/chatgpt/</guid>
       <description></description>
     </item>
     
@@ -175,24 +445,6 @@
       <pubDate>Sun, 30 Jul 2023 06:11:38 +0000</pubDate>
       
       <guid>https://aicube.fun/tags/metrical/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenAI API</title>
-      <link>https://aicube.fun/tags/openai-api/</link>
-      <pubDate>Sun, 30 Jul 2023 06:09:42 +0000</pubDate>
-      
-      <guid>https://aicube.fun/tags/openai-api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://aicube.fun/tags/python/</link>
-      <pubDate>Sun, 30 Jul 2023 06:09:42 +0000</pubDate>
-      
-      <guid>https://aicube.fun/tags/python/</guid>
       <description></description>
     </item>
     

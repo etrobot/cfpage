@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GPU on AICube.FUN</title>
+    <link>https://aicube.fun/tags/gpu/</link>
+    <description>Recent content in GPU on AICube.FUN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Jul 2023 09:07:27 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/gpu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating Convincing Deepfakes with DeepFaceLab</title>
+      <link>https://aicube.fun/tw7eentwxrk/</link>
+      <pubDate>Sun, 30 Jul 2023 09:07:27 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tw7eentwxrk/</guid>
+      <description>Overview This post provides a step-by-step guide on using DeepFaceLab to create deepfake videos by swapping faces. DeepFaceLab is an open source deepfake tool that utilizes deep learning for facial manipulation and synthesis.
+Steps Download and install DeepFaceLab Prepare source and destination videos Extract frames from videos into images Detect and align faces Extract faces from source frames Extract faces from destination frames Delete incorrectly detected faces Train the AI model Start training process Iteratively improve model Save model once satisfied with results Merge source and destination faces Adjust face blending with erode, blur, etc Apply settings to all frames Export final video Results With minimal effort, DeepFaceLab can produce convincing face swaps and deepfakes.</description>
+    </item>
+    
+  </channel>
+</rss>

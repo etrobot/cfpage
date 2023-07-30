@@ -6,7 +6,133 @@
     <description>Recent content in Claude on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jul 2023 06:15:40 +0000</lastBuildDate><atom:link href="https://aicube.fun/author/claude/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jul 2023 09:15:23 +0000</lastBuildDate><atom:link href="https://aicube.fun/author/claude/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build Your Own ChatGPT AI Assistant</title>
+      <link>https://aicube.fun/qwm23_kf4v4/</link>
+      <pubDate>Sun, 30 Jul 2023 09:15:23 +0000</pubDate>
+      
+      <guid>https://aicube.fun/qwm23_kf4v4/</guid>
+      <description>In this post, we&amp;rsquo;ll walk through how to build your own AI assistant similar to ChatGPT using tools like OpenAI and GitHub Copilot.
+Overview We&amp;rsquo;ll build a chat interface using React We&amp;rsquo;ll create a backend server with Node.js and Express to communicate with OpenAI&amp;rsquo;s API We&amp;rsquo;ll configure multiple AI models like Codex to use for different prompts We&amp;rsquo;ll allow custom prompts and conversations with the AI assistant Tools Used OpenAI API ChatGPT model GitHub Copilot for auto-generating code React for frontend Node.</description>
+    </item>
+    
+    <item>
+      <title>Running Large Language Models at Home Using Petals</title>
+      <link>https://aicube.fun/1iepzvhyeg4/</link>
+      <pubDate>Sun, 30 Jul 2023 09:14:13 +0000</pubDate>
+      
+      <guid>https://aicube.fun/1iepzvhyeg4/</guid>
+      <description>Overview Petals is an open source project that allows running large language models (LLMs) like LLMa, GPT-3 etc in a distributed, peer-to-peer fashion similar to BitTorrent. By sharing GPU resources with others, you can run models too large to fit on a single GPU.</description>
+    </item>
+    
+    <item>
+      <title>New AI Tools To Automate Coding Threaten Developer Jobs</title>
+      <link>https://aicube.fun/fpzonha0c60/</link>
+      <pubDate>Sun, 30 Jul 2023 09:13:01 +0000</pubDate>
+      
+      <guid>https://aicube.fun/fpzonha0c60/</guid>
+      <description>Overview There are new AI tools like GPT engineer that can automatically generate code from simple prompts. This allows creating full applications with backend, frontend, APIs, etc in minutes. While this greatly improves efficiency, it also threatens the jobs of many developers, especially junior developers.</description>
+    </item>
+    
+    <item>
+      <title>Automating Machine Learning Pipelines with GPT Engineer</title>
+      <link>https://aicube.fun/gwy-pj2ofem/</link>
+      <pubDate>Sun, 30 Jul 2023 09:11:59 +0000</pubDate>
+      
+      <guid>https://aicube.fun/gwy-pj2ofem/</guid>
+      <description>GPT Engineer is a new tool that allows automating the creation of machine learning pipelines by leveraging the power of large language models like GPT-3. It interacts via conversational prompts and clarifying questions to generate full code solutions split across modular files.</description>
+    </item>
+    
+    <item>
+      <title>Examining GPT Engineer - AI Generated Code</title>
+      <link>https://aicube.fun/bbfiqclvhns/</link>
+      <pubDate>Sun, 30 Jul 2023 09:10:59 +0000</pubDate>
+      
+      <guid>https://aicube.fun/bbfiqclvhns/</guid>
+      <description>GPT Engineer is an AI tool that can generate an entire codebase from a single prompt by asking clarifying questions. It uses OpenAI&amp;rsquo;s GPT models under the hood.
+Overview GPT Engineer is created by Anton Seeker and has gotten a lot of stars on GitHub recently.</description>
+    </item>
+    
+    <item>
+      <title>GPT Engineer - Code Generation using AI</title>
+      <link>https://aicube.fun/qltentq_9rc/</link>
+      <pubDate>Sun, 30 Jul 2023 09:09:59 +0000</pubDate>
+      
+      <guid>https://aicube.fun/qltentq_9rc/</guid>
+      <description>Overview GPT Engineer is a new open source tool that utilizes AI to generate code by conversing with the user. It builds on top of capabilities from ChatGPT and the OpenAI API.
+How it Works GPT Engineer allows prompts to be defined that specify requirements for an application.</description>
+    </item>
+    
+    <item>
+      <title>Creating Convincing Deepfakes with DeepFaceLab</title>
+      <link>https://aicube.fun/tw7eentwxrk/</link>
+      <pubDate>Sun, 30 Jul 2023 09:07:27 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tw7eentwxrk/</guid>
+      <description>Overview This post provides a step-by-step guide on using DeepFaceLab to create deepfake videos by swapping faces. DeepFaceLab is an open source deepfake tool that utilizes deep learning for facial manipulation and synthesis.
+Steps Download and install DeepFaceLab Prepare source and destination videos Extract frames from videos into images Detect and align faces Extract faces from source frames Extract faces from destination frames Delete incorrectly detected faces Train the AI model Start training process Iteratively improve model Save model once satisfied with results Merge source and destination faces Adjust face blending with erode, blur, etc Apply settings to all frames Export final video Results With minimal effort, DeepFaceLab can produce convincing face swaps and deepfakes.</description>
+    </item>
+    
+    <item>
+      <title>Training an AI to Bowl in Unity</title>
+      <link>https://aicube.fun/ewjuy_3ubf4/</link>
+      <pubDate>Sun, 30 Jul 2023 09:05:19 +0000</pubDate>
+      
+      <guid>https://aicube.fun/ewjuy_3ubf4/</guid>
+      <description>In this experiment, a reinforcement learning algorithm called PPO was used to train an AI agent to bowl in the Unity game engine.
+The Goal The goal was to create an AI that could knock down bowling pins efficiently by throwing the ball straight down the lane.</description>
+    </item>
+    
+    <item>
+      <title>Face Swapping in Stable Diffusion using Rupe</title>
+      <link>https://aicube.fun/m-vd0l6w9fg/</link>
+      <pubDate>Sun, 30 Jul 2023 09:03:29 +0000</pubDate>
+      
+      <guid>https://aicube.fun/m-vd0l6w9fg/</guid>
+      <description>Introduction Rupe is a new extension for swapping faces in images generated with Stable Diffusion. It allows you to easily replace a face in an image with a different face from another image.
+Installation Installing Rupe in Stable Diffusion is very easy. Just go to the Extensions tab in the UI, click on &amp;ldquo;Load from URL&amp;rdquo; under the Available section, and install the Rupe extension from the SD Web UI Extensions group.</description>
+    </item>
+    
+    <item>
+      <title>New AI Image Editing Tool Dragon Set to Disrupt Photoshop and More</title>
+      <link>https://aicube.fun/bqqfhsx-t0i/</link>
+      <pubDate>Sun, 30 Jul 2023 08:57:44 +0000</pubDate>
+      
+      <guid>https://aicube.fun/bqqfhsx-t0i/</guid>
+      <description>A new AI tool called Dragon is poised to revolutionize image editing. Created by researchers from Google, MIT and Max Planck Institute, Dragon allows users to easily edit images in ways that are extremely difficult or impossible to do manually in Photoshop.</description>
+    </item>
+    
+    <item>
+      <title>A Fast Guide to Using SDXL with Conf UI</title>
+      <link>https://aicube.fun/tyk6tav-gvc/</link>
+      <pubDate>Sun, 30 Jul 2023 08:52:46 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tyk6tav-gvc/</guid>
+      <description>Overview This post provides a quick tutorial on using the SDXL AI model with Conf UI for fast high-quality image generation.
+Steps Download and install Conf UI from the provided link. Be sure to update to the latest version.
+Open the Conf UI canvas and import the pre-made SDXL workflow provided.</description>
+    </item>
+    
+    <item>
+      <title>Face Swapping in Images using Automatic1111</title>
+      <link>https://aicube.fun/potksdm-fzu/</link>
+      <pubDate>Sun, 30 Jul 2023 08:51:47 +0000</pubDate>
+      
+      <guid>https://aicube.fun/potksdm-fzu/</guid>
+      <description>Introduction Face swapping is the process of replacing a face in an image with a different face, while maintaining the original facial expression and head position. This can be done using AI tools like Stable Diffusion and Automatic1111. In this post, we will discuss how to use Automatic1111 and its RuBE extension to easily swap faces in images.</description>
+    </item>
+    
+    <item>
+      <title>Creating a Deepfake with a Single Image</title>
+      <link>https://aicube.fun/bm5t6mekgum/</link>
+      <pubDate>Sun, 30 Jul 2023 08:50:43 +0000</pubDate>
+      
+      <guid>https://aicube.fun/bm5t6mekgum/</guid>
+      <description>Introduction This post outlines a tutorial for creating a deepfake video using only a single image as the source for the target face. This method is fast and can produce remarkably realistic results.
+Tools Used The main tools used in this tutorial are:</description>
+    </item>
+    
     <item>
       <title>Integrate GPT-3 into Google Sheets and Turn Excel Data into Designs</title>
       <link>https://aicube.fun/w9bvzdhdc6i/</link>

@@ -6,7 +6,37 @@
     <description>Recent content in ChatGPT on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jul 2023 06:13:35 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jul 2023 09:15:23 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build Your Own ChatGPT AI Assistant</title>
+      <link>https://aicube.fun/qwm23_kf4v4/</link>
+      <pubDate>Sun, 30 Jul 2023 09:15:23 +0000</pubDate>
+      
+      <guid>https://aicube.fun/qwm23_kf4v4/</guid>
+      <description>In this post, we&amp;rsquo;ll walk through how to build your own AI assistant similar to ChatGPT using tools like OpenAI and GitHub Copilot.
+Overview We&amp;rsquo;ll build a chat interface using React We&amp;rsquo;ll create a backend server with Node.js and Express to communicate with OpenAI&amp;rsquo;s API We&amp;rsquo;ll configure multiple AI models like Codex to use for different prompts We&amp;rsquo;ll allow custom prompts and conversations with the AI assistant Tools Used OpenAI API ChatGPT model GitHub Copilot for auto-generating code React for frontend Node.</description>
+    </item>
+    
+    <item>
+      <title>Examining GPT Engineer - AI Generated Code</title>
+      <link>https://aicube.fun/bbfiqclvhns/</link>
+      <pubDate>Sun, 30 Jul 2023 09:10:59 +0000</pubDate>
+      
+      <guid>https://aicube.fun/bbfiqclvhns/</guid>
+      <description>GPT Engineer is an AI tool that can generate an entire codebase from a single prompt by asking clarifying questions. It uses OpenAI&amp;rsquo;s GPT models under the hood.
+Overview GPT Engineer is created by Anton Seeker and has gotten a lot of stars on GitHub recently.</description>
+    </item>
+    
+    <item>
+      <title>GPT Engineer - Code Generation using AI</title>
+      <link>https://aicube.fun/qltentq_9rc/</link>
+      <pubDate>Sun, 30 Jul 2023 09:09:59 +0000</pubDate>
+      
+      <guid>https://aicube.fun/qltentq_9rc/</guid>
+      <description>Overview GPT Engineer is a new open source tool that utilizes AI to generate code by conversing with the user. It builds on top of capabilities from ChatGPT and the OpenAI API.
+How it Works GPT Engineer allows prompts to be defined that specify requirements for an application.</description>
+    </item>
+    
     <item>
       <title>Automating Social Media Posts with AI</title>
       <link>https://aicube.fun/mvdtqwfp_pg/</link>

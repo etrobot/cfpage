@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deepfake Model on AICube.FUN</title>
+    <link>https://aicube.fun/tags/deepfake-model/</link>
+    <description>Recent content in Deepfake Model on AICube.FUN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Jul 2023 08:50:43 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/deepfake-model/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating a Deepfake with a Single Image</title>
+      <link>https://aicube.fun/bm5t6mekgum/</link>
+      <pubDate>Sun, 30 Jul 2023 08:50:43 +0000</pubDate>
+      
+      <guid>https://aicube.fun/bm5t6mekgum/</guid>
+      <description>Introduction This post outlines a tutorial for creating a deepfake video using only a single image as the source for the target face. This method is fast and can produce remarkably realistic results.
+Tools Used The main tools used in this tutorial are:</description>
+    </item>
+    
+  </channel>
+</rss>

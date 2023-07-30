@@ -6,7 +6,16 @@
     <description>Recent content in Python on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jul 2023 06:09:42 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jul 2023 09:11:59 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automating Machine Learning Pipelines with GPT Engineer</title>
+      <link>https://aicube.fun/gwy-pj2ofem/</link>
+      <pubDate>Sun, 30 Jul 2023 09:11:59 +0000</pubDate>
+      
+      <guid>https://aicube.fun/gwy-pj2ofem/</guid>
+      <description>GPT Engineer is a new tool that allows automating the creation of machine learning pipelines by leveraging the power of large language models like GPT-3. It interacts via conversational prompts and clarifying questions to generate full code solutions split across modular files.</description>
+    </item>
+    
     <item>
       <title>Using ChatGPT to Automate Tinder Messages</title>
       <link>https://aicube.fun/vm55efbokcm/</link>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LLM on AICube.FUN</title>
+    <link>https://aicube.fun/tags/llm/</link>
+    <description>Recent content in LLM on AICube.FUN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Jul 2023 09:14:13 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Large Language Models at Home Using Petals</title>
+      <link>https://aicube.fun/1iepzvhyeg4/</link>
+      <pubDate>Sun, 30 Jul 2023 09:14:13 +0000</pubDate>
+      
+      <guid>https://aicube.fun/1iepzvhyeg4/</guid>
+      <description>Overview Petals is an open source project that allows running large language models (LLMs) like LLMa, GPT-3 etc in a distributed, peer-to-peer fashion similar to BitTorrent. By sharing GPU resources with others, you can run models too large to fit on a single GPU.</description>
+    </item>
+    
+  </channel>
+</rss>

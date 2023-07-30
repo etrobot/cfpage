@@ -6,7 +6,26 @@
     <description>Recent content in OpenAI API on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jul 2023 06:09:42 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/openai-api/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jul 2023 09:11:59 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/openai-api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automating Machine Learning Pipelines with GPT Engineer</title>
+      <link>https://aicube.fun/gwy-pj2ofem/</link>
+      <pubDate>Sun, 30 Jul 2023 09:11:59 +0000</pubDate>
+      
+      <guid>https://aicube.fun/gwy-pj2ofem/</guid>
+      <description>GPT Engineer is a new tool that allows automating the creation of machine learning pipelines by leveraging the power of large language models like GPT-3. It interacts via conversational prompts and clarifying questions to generate full code solutions split across modular files.</description>
+    </item>
+    
+    <item>
+      <title>GPT Engineer - Code Generation using AI</title>
+      <link>https://aicube.fun/qltentq_9rc/</link>
+      <pubDate>Sun, 30 Jul 2023 09:09:59 +0000</pubDate>
+      
+      <guid>https://aicube.fun/qltentq_9rc/</guid>
+      <description>Overview GPT Engineer is a new open source tool that utilizes AI to generate code by conversing with the user. It builds on top of capabilities from ChatGPT and the OpenAI API.
+How it Works GPT Engineer allows prompts to be defined that specify requirements for an application.</description>
+    </item>
+    
     <item>
       <title>Using ChatGPT to Automate Tinder Messages</title>
       <link>https://aicube.fun/vm55efbokcm/</link>
