@@ -1,39 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>chatGPT on AICube.FUN</title>
+    <title>ChatGPT on AICube.FUN</title>
     <link>https://aicube.fun/tags/chatgpt/</link>
-    <description>Recent content in chatGPT on AICube.FUN</description>
+    <description>Recent content in ChatGPT on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jul 2023 02:25:01 -0600</lastBuildDate><atom:link href="https://aicube.fun/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jul 2023 06:13:35 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Create 30 Pieces of Content in 24 Hours Using AI</title>
-      <link>https://aicube.fun/how-to-create-30-pieces-of-content-in-24-hours-using-ai/</link>
-      <pubDate>Sat, 29 Jul 2023 02:25:01 -0600</pubDate>
+      <title>Automating Social Media Posts with AI</title>
+      <link>https://aicube.fun/mvdtqwfp_pg/</link>
+      <pubDate>Sun, 30 Jul 2023 06:13:35 +0000</pubDate>
       
-      <guid>https://aicube.fun/how-to-create-30-pieces-of-content-in-24-hours-using-ai/</guid>
-      <description>How to Create 30 Pieces of Content in 24 Hours Using AI We&amp;rsquo;ve almost all interacted with AI in some form, whether using it to create content or just consuming AI-based content. This means the bar for content quality has been raised. However, if we utilize AI tools to assist our content creation process, we can not only be successful in our business but also create pieces of work we wouldn&amp;rsquo;t be capable of before.</description>
+      <guid>https://aicube.fun/mvdtqwfp_pg/</guid>
+      <description>Social media marketing can be very time consuming, but AI tools offer an excellent way to automate content creation and posting. This allows you to consistently publish high-quality content without spending all your time crafting posts and managing accounts.
+Tools Used ChatGPT - Used to generate the text content for posts based on prompts.</description>
     </item>
     
     <item>
-      <title>How to Use ChatGPT to Create a Complete TikTok Strategy for Real Estate Agents</title>
-      <link>https://aicube.fun/how-to-use-chatgpt-to-create-a-complete-tiktok-strategy-for-real-estate-agents/</link>
-      <pubDate>Sat, 29 Jul 2023 02:18:19 -0600</pubDate>
+      <title>Using ChatGPT to Automate Tinder Messages</title>
+      <link>https://aicube.fun/vm55efbokcm/</link>
+      <pubDate>Sun, 30 Jul 2023 06:09:42 +0000</pubDate>
       
-      <guid>https://aicube.fun/how-to-use-chatgpt-to-create-a-complete-tiktok-strategy-for-real-estate-agents/</guid>
-      <description>How to Use ChatGPT to Create a Complete TikTok Strategy for Real Estate Agents Artificial intelligence (AI) has taken the real estate industry by storm. But ultimately, people don&amp;rsquo;t really know how to properly leverage it.
-I know from experience that many real estate agents struggle when it comes to content strategy, especially for TikTok.</description>
+      <guid>https://aicube.fun/vm55efbokcm/</guid>
+      <description>Overview This post describes an experiment using ChatGPT and other AI tools to automate sending customized messages to Tinder matches. The goal was to build an automated system to send engaging opening messages to matches on Tinder.
+Tools Used ChatGPT - to generate pickup lines and opening messages OpenAI API - to interface with ChatGPT Selenium - to automate logging in and interacting with the Tinder website Python - to code the bot Implementation Use Selenium to login to Tinder and auto-swipe right to get matches Get match names and profile links using Selenium Feed match names into ChatGPT prompts to generate custom pickup lines Send the messages to matches Results The bot was able to successfully login, get matches, generate messages, and send them.</description>
     </item>
     
     <item>
-      <title>How Mike Gerard Built a Real Estate Empire Through Youtube Despite Early Criticism</title>
-      <link>https://aicube.fun/how-mike-gerard-built-a-real-estate-empire-through-youtube-despite-early-criticism/</link>
-      <pubDate>Sat, 29 Jul 2023 02:17:02 -0600</pubDate>
+      <title>Using AI to Efficiently Create Lots of Video Content</title>
+      <link>https://aicube.fun/n60f64u9n_8/</link>
+      <pubDate>Sun, 30 Jul 2023 06:08:44 +0000</pubDate>
       
-      <guid>https://aicube.fun/how-mike-gerard-built-a-real-estate-empire-through-youtube-despite-early-criticism/</guid>
-      <description>How Mike Gerard Built a Real Estate Empire Through Youtube Despite Early Criticism Mike Gerard is a top real estate agent from Calgary, Canada who has built a massive organization and brand through YouTube, despite facing criticism and self-doubt early on.
-In his inspiring presentation, Mike shared how he started creating real estate videos on YouTube five years ago, even though he was insecure, overweight, and inexperienced on camera.</description>
+      <guid>https://aicube.fun/n60f64u9n_8/</guid>
+      <description>AI tools like ChatGPT, InVideo, and AI voiceover can help you quickly and easily create lots of video content. Here&amp;rsquo;s how it works:
+Write Scripts with ChatGPT Use ChatGPT to effortlessly write high-quality scripts for your videos. Just give it some prompts about what you want the video to be about, and it will generate an entire script for you.</description>
+    </item>
+    
+    <item>
+      <title>Using AI to Automate and Optimize Social Media Marketing</title>
+      <link>https://aicube.fun/pk4fclcdimc/</link>
+      <pubDate>Sun, 30 Jul 2023 05:36:33 +0000</pubDate>
+      
+      <guid>https://aicube.fun/pk4fclcdimc/</guid>
+      <description>Social media marketing is crucial for modern businesses, but managing multiple platforms and creating engaging content can be extremely time consuming. Thankfully, there are now a variety of AI tools that can help automate and optimize different parts of your social media strategy.</description>
+    </item>
+    
+    <item>
+      <title>Noam Chomsky discusses AI, education, climate change, and vaccines</title>
+      <link>https://aicube.fun/igxzcougvei/</link>
+      <pubDate>Sun, 30 Jul 2023 05:34:27 +0000</pubDate>
+      
+      <guid>https://aicube.fun/igxzcougvei/</guid>
+      <description>Tools mentioned: ChatGPT, Google Translate, Live transcription
+The renowned philosopher and political activist Noam Chomsky recently participated in an interview covering several important topics:
+On AI and education ChatGPT and similar AI systems are just &amp;ldquo;high-tech plagiarism&amp;rdquo; and have no value for real understanding or education.</description>
+    </item>
+    
+    <item>
+      <title>Use ChatGPT and Zapier to Automate Content Creation</title>
+      <link>https://aicube.fun/rkbcy8jqzzg/</link>
+      <pubDate>Sun, 30 Jul 2023 05:15:56 +0000</pubDate>
+      
+      <guid>https://aicube.fun/rkbcy8jqzzg/</guid>
+      <description>Introduction ChatGPT and Zapier are powerful tools that can be used together to automate content creation and publishing. In this post, I&amp;rsquo;ll show you how to use these tools to analyze a YouTube video, generate tweets from it, and automatically publish them to Twitter.</description>
+    </item>
+    
+    <item>
+      <title>I Made an Entire Video Game Using Only AI-Generated Code</title>
+      <link>https://aicube.fun/l6vw0um5xtg/</link>
+      <pubDate>Sun, 30 Jul 2023 05:14:53 +0000</pubDate>
+      
+      <guid>https://aicube.fun/l6vw0um5xtg/</guid>
+      <description>Introduction Recently, I discovered an amazing AI chatbot called ChatGPT that can generate code upon request. I was fascinated by its capabilities, so I decided to put it to the test by having it create an entire simple 2D video game for me.</description>
+    </item>
+    
+    <item>
+      <title>Use ChatGPT to Automate Your Instagram and Grow Your Followers</title>
+      <link>https://aicube.fun/mcvfw9rb3sq/</link>
+      <pubDate>Sun, 30 Jul 2023 05:03:39 +0000</pubDate>
+      
+      <guid>https://aicube.fun/mcvfw9rb3sq/</guid>
+      <description>Social media can be time consuming to manage. But AI tools like ChatGPT make it easy to automate content creation and posting. In this guide, I&amp;rsquo;ll show you how I used ChatGPT and other AI tools to automatically generate and post content to Instagram daily.</description>
     </item>
     
   </channel>

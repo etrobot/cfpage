@@ -6,11 +6,20 @@
     <description>Recent content in Category on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jul 2023 02:27:30 -0600</lastBuildDate><atom:link href="https://aicube.fun/category/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jul 2023 06:15:40 +0000</lastBuildDate><atom:link href="https://aicube.fun/category/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>efficiency</title>
+      <link>https://aicube.fun/category/efficiency/</link>
+      <pubDate>Sun, 30 Jul 2023 06:15:40 +0000</pubDate>
+      
+      <guid>https://aicube.fun/category/efficiency/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>marketing</title>
       <link>https://aicube.fun/category/marketing/</link>
-      <pubDate>Sat, 29 Jul 2023 02:27:30 -0600</pubDate>
+      <pubDate>Sun, 30 Jul 2023 06:13:35 +0000</pubDate>
       
       <guid>https://aicube.fun/category/marketing/</guid>
       <description></description>
@@ -22,15 +31,6 @@
       <pubDate>Sun, 23 Jul 2023 21:40:00 -0600</pubDate>
       
       <guid>https://aicube.fun/category/model/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>efficency</title>
-      <link>https://aicube.fun/category/efficency/</link>
-      <pubDate>Sun, 23 Jul 2023 21:00:46 -0600</pubDate>
-      
-      <guid>https://aicube.fun/category/efficency/</guid>
       <description></description>
     </item>
     
