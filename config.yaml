@@ -2,6 +2,7 @@ baseURL: 'https://aicube.fun/'
 languageCode: 'en-us'
 title: 'AICube.FUN'
 theme: 'financlub'
+googleAnalytics: 'G-E81Q3ME7TE'
 hasCJKLanguage: true
 summaryLength: 42
 taxonomies:
@@ -19,7 +20,3 @@ params:
   social:
     github: https://github.com/etrobot/hugo-theme-financlub
     twitter: https://twitter.com/etrobot
-  mj-suffix:
-    jarvis-ft: 'AI,finance,city --v 5'
-    friday-wall: 'futuristic,wallstreet --v 5'
-    ultron-bloom: 'stock monitors, neon --v 5'
