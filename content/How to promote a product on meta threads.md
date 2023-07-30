@@ -4,7 +4,7 @@ title: "Promo a product on Meta Threads"
 date: 2023-07-23T21:00:46-06:00
 draft: true
 tags: ['Threads']
-category: efficency
+category: efficiency
 author: Frank Lin
 ---
 
@@ -19,7 +19,6 @@ Here are some tips on how to promote your product on Meta Threads:
 
 I hope this helps!
 
-源: 与必应的对话， 24/07/2023
 (1) Meta shares guidance on how to 'integrate brands on Threads'. https://searchengineland.com/meta-integrate-brands-threads-429633.
 (2) Meta Shares Tips on How to Maximize Threads Engagement, Previews .... https://www.socialmediatoday.com/news/meta-shares-tips-maximize-threads-engagement-previews-following/688598/.
 (3) 3 Ways Businesses Can Use Threads Meta from Instagram. https://www.smsbroadcaster.com/post/threads-meta.

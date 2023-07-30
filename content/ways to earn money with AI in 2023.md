@@ -4,7 +4,7 @@ title: "Ways to earn money with AI in 2023"
 date: 2023-07-23T20:52:46-06:00
 draft: true
 tags: ['Online Earning', 'AI tool']
-category: efficency
+category: efficiency
 author: Frank Lin
 ---
 

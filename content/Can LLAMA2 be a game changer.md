@@ -1,7 +1,7 @@
 
 ---
-title: "Ways to earn money with AI in 2023"
-date: 2023-07-23T21:52:46-06:00
+title: "Can LLAMA2 be a game changer?"
+date: 2023-07-23T21:40:00-06:00
 draft: true
 tags: ['LLAMA', 'Large Language Model']
 category: model
