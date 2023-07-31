@@ -1,0 +1,37 @@
+{{$authorName:= .Params.author | urlize }}
+{{$categoryName:= .Params.category | urlize }}
+<div class="column is-half is-full-mobile">
+  <div class="card">
+    <div class="card-content is-dark">
+      <div class="media">
+        {{if $authorName}}
+        <div class="media-left">
+          <figure class="image is-48x48">
+            <a href="/author/{{$authorName}}">
+              <img class="is-rounded" src="/avatar/{{$authorName}}.jpg" alt="{{$authorName}}">
+              <a>
+          </figure>
+        </div>
+        {{end}}
+        <div class="media-content">
+          <div class="block">
+          <a class="title is-6" href="{{ .Permalink }}">{{ .Title }}<a>
+            </div>
+          <p class="subtitle is-6">
+            <a href="/author/{{$authorName}}" class="button is-small is-black">{{.Params.author}}</a>
+            <a href="/category/{{$categoryName}}" class="button is-small is-outlined {{index .Site.Params.catesytles $categoryName }}">{{.Params.category}}</a>
+            <span class="button is-small is-outlined">{{ .Date.Format (.Site.Params.dateFormat | default "2006-01-02") }}</span>
+          </p>
+        </div>
+      </div>
+      {{ $last := path.Base .RelPermalink }}
+      {{index .Site.Params.profiles $last }}
+      {{if $authorName}}
+      <a class="subtitle is-6" href="{{ .Permalink }}">
+        {{ .Summary }}
+      </a>
+      <a href="{{ .RelPermalink }}">……</a>
+      {{end}}
+    </div>
+  </div>
+</div>

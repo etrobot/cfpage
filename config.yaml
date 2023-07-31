@@ -1,0 +1,22 @@
+baseURL: 'https://aicube.fun/'
+languageCode: 'en-us'
+title: 'AICube.FUN'
+theme: 'financlub'
+googleAnalytics: 'G-E81Q3ME7TE'
+hasCJKLanguage: true
+summaryLength: 42
+taxonomies:
+  tags: 'tags'
+  category: 'category'
+  social: 'social'
+  author: 'author'
+params:
+  catesytles:
+    marketing: is-warning
+    efficiency: is-info
+    model: is-success
+  adsensePubId: 7398757278741889
+  adsenseUnitId: 7456114770
+  social:
+    github: https://github.com/etrobot/hugo-theme-financlub
+    twitter: https://twitter.com/etrobot
