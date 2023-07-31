@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 30 Jul 2023 09:03:29 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/rupe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Face Swapping in Stable Diffusion using Rupe</title>
-      <link>https://aicube.fun/m-vd0l6w9fg/</link>
+      <link>https://aicube.fun/post/m-vd0l6w9fg/</link>
       <pubDate>Sun, 30 Jul 2023 09:03:29 +0000</pubDate>
       
-      <guid>https://aicube.fun/m-vd0l6w9fg/</guid>
+      <guid>https://aicube.fun/post/m-vd0l6w9fg/</guid>
       <description>Introduction Rupe is a new extension for swapping faces in images generated with Stable Diffusion. It allows you to easily replace a face in an image with a different face from another image.
 Installation Installing Rupe in Stable Diffusion is very easy. Just go to the Extensions tab in the UI, click on &amp;ldquo;Load from URL&amp;rdquo; under the Available section, and install the Rupe extension from the SD Web UI Extensions group.</description>
     </item>

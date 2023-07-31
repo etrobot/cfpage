@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anthropic on AICube.FUN</title>
+    <link>https://aicube.fun/tags/anthropic/</link>
+    <description>Recent content in Anthropic on AICube.FUN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Jul 2023 16:27:50 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/anthropic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pivoting Startup Ideas</title>
+      <link>https://aicube.fun/post/dmehfucmtvc/</link>
+      <pubDate>Mon, 31 Jul 2023 16:27:50 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/dmehfucmtvc/</guid>
+      <description>Many successful startups had to pivot and change their idea before finding product-market fit. Pivoting is common in the startup world - it means changing your startup idea because the current idea is not working.
+Y Combinator partners share stories of famous pivots:</description>
+    </item>
+    
+    <item>
+      <title>The Promise and Peril of AI: A Conversation with Scale AI CEO Alexander Wang</title>
+      <link>https://aicube.fun/post/ytnseziwnku/</link>
+      <pubDate>Mon, 31 Jul 2023 16:25:30 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/ytnseziwnku/</guid>
+      <description>Artificial intelligence (AI) has seen tremendous advances in recent years, with systems like ChatGPT demonstrating new capabilities in natural language processing. However, there are also growing concerns about the risks posed by advanced AI systems.
+I recently had the chance to speak with Alexander Wang, CEO of Scale AI, about the state of AI technology today.</description>
+    </item>
+    
+  </channel>
+</rss>

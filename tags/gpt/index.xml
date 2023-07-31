@@ -6,22 +6,32 @@
     <description>Recent content in GPT on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jul 2023 09:14:13 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/gpt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jul 2023 16:26:44 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/gpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conversation on the Evolution and Ethics of AI</title>
+      <link>https://aicube.fun/post/_b__l_olcws/</link>
+      <pubDate>Mon, 31 Jul 2023 16:26:44 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/_b__l_olcws/</guid>
+      <description>Overview This is a summary of a conversation between AI experts including Imad Mushtaq, Alexander Wang, and Andrew Ng on the rapid advancement of AI technology and the ethical implications. Key topics discussed:
+How AI will transform industries and jobs extremely quickly. Education and reskilling will be critical.</description>
+    </item>
+    
     <item>
       <title>Running Large Language Models at Home Using Petals</title>
-      <link>https://aicube.fun/1iepzvhyeg4/</link>
+      <link>https://aicube.fun/post/1iepzvhyeg4/</link>
       <pubDate>Sun, 30 Jul 2023 09:14:13 +0000</pubDate>
       
-      <guid>https://aicube.fun/1iepzvhyeg4/</guid>
+      <guid>https://aicube.fun/post/1iepzvhyeg4/</guid>
       <description>Overview Petals is an open source project that allows running large language models (LLMs) like LLMa, GPT-3 etc in a distributed, peer-to-peer fashion similar to BitTorrent. By sharing GPU resources with others, you can run models too large to fit on a single GPU.</description>
     </item>
     
     <item>
       <title>GPT Engineer - Code Generation using AI</title>
-      <link>https://aicube.fun/qltentq_9rc/</link>
+      <link>https://aicube.fun/post/qltentq_9rc/</link>
       <pubDate>Sun, 30 Jul 2023 09:09:59 +0000</pubDate>
       
-      <guid>https://aicube.fun/qltentq_9rc/</guid>
+      <guid>https://aicube.fun/post/qltentq_9rc/</guid>
       <description>Overview GPT Engineer is a new open source tool that utilizes AI to generate code by conversing with the user. It builds on top of capabilities from ChatGPT and the OpenAI API.
 How it Works GPT Engineer allows prompts to be defined that specify requirements for an application.</description>
     </item>

@@ -6,82 +6,149 @@
     <description>Recent content in ChatGPT on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jul 2023 09:15:23 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jul 2023 16:25:30 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Promise and Peril of AI: A Conversation with Scale AI CEO Alexander Wang</title>
+      <link>https://aicube.fun/post/ytnseziwnku/</link>
+      <pubDate>Mon, 31 Jul 2023 16:25:30 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/ytnseziwnku/</guid>
+      <description>Artificial intelligence (AI) has seen tremendous advances in recent years, with systems like ChatGPT demonstrating new capabilities in natural language processing. However, there are also growing concerns about the risks posed by advanced AI systems.
+I recently had the chance to speak with Alexander Wang, CEO of Scale AI, about the state of AI technology today.</description>
+    </item>
+    
+    <item>
+      <title>Make Money with AI Content Marketing</title>
+      <link>https://aicube.fun/post/ijnymm6w5pg/</link>
+      <pubDate>Mon, 31 Jul 2023 15:50:14 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/ijnymm6w5pg/</guid>
+      <description>Overview This post outlines a strategy for making money online by using AI tools to easily create marketing content and sales funnels. The key tools discussed are ChatGPT and FunnelsForever.
+Steps Find a software subscription service you can promote as an affiliate. Sign up to become an affiliate partner.</description>
+    </item>
+    
+    <item>
+      <title>Use ChatGPT for Twitter Marketing</title>
+      <link>https://aicube.fun/post/dplefwdfd9w/</link>
+      <pubDate>Mon, 31 Jul 2023 15:49:13 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/dplefwdfd9w/</guid>
+      <description>Overview This post covers how to use AI tools like ChatGPT and Keywords Everywhere to generate Twitter content for marketing purposes. We&amp;rsquo;ll go over templates for creating engaging Twitter threads, bios, converting articles to threads, responding to customers, generating hashtags and content calendars.</description>
+    </item>
+    
+    <item>
+      <title>Use ChatGPT to Write Your Resume</title>
+      <link>https://aicube.fun/post/ueydma7zyzk/</link>
+      <pubDate>Mon, 31 Jul 2023 15:47:59 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/ueydma7zyzk/</guid>
+      <description>ChatGPT can be a useful tool for generating content and ideas when writing your resume. Here are some tips:
+Use ChatGPT to Create Resume Bullet Points Ask ChatGPT to &amp;ldquo;create resume bullet points for [job title]&amp;rdquo; It will generate relevant accomplishment-oriented bullet points that you can tailor to your own experience This gives you a starting point instead of a blank page For example:</description>
+    </item>
+    
+    <item>
+      <title>Using AI to Automate Your Sales and Marketing</title>
+      <link>https://aicube.fun/post/v3f2gvrc7bo/</link>
+      <pubDate>Mon, 31 Jul 2023 15:45:22 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/v3f2gvrc7bo/</guid>
+      <description>Overview This post explains how to use AI tools like ChatGPT and AI video creation to fully automate your sales and marketing process. The key steps are:
+Find a product to promote Create a landing page and automated email sequence Drive traffic to your landing page Let AI follow up and convert leads into sales Step 1: Find a Product to Promote If you don&amp;rsquo;t already have a product or business, you can promote affiliate products.</description>
+    </item>
+    
+    <item>
+      <title>Automating Threads by Instagram with ChatGPT for Efficiency</title>
+      <link>https://aicube.fun/post/tqcgo_cc0c8/</link>
+      <pubDate>Mon, 31 Jul 2023 14:40:20 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/tqcgo_cc0c8/</guid>
+      <description>Overview Threads is a new text-focused app from Meta, similar to Twitter. It syncs with your Instagram account. Since Threads is a brand new platform, it presents a huge opportunity to build an audience and get traction if you start posting content now.</description>
+    </item>
+    
+    <item>
+      <title>Automating Tasks with Python and ChatGPT</title>
+      <link>https://aicube.fun/post/w-x_eq2xva4/</link>
+      <pubDate>Mon, 31 Jul 2023 13:24:39 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/w-x_eq2xva4/</guid>
+      <description>Overview This post explains how to use Python and ChatGPT to automate repetitive tasks. We will use the OpenAI API to generate Python scripts that can extract and translate headers from a blog post, as well as clean up old files from a downloads folder.</description>
+    </item>
+    
     <item>
       <title>Build Your Own ChatGPT AI Assistant</title>
-      <link>https://aicube.fun/qwm23_kf4v4/</link>
+      <link>https://aicube.fun/post/qwm23_kf4v4/</link>
       <pubDate>Sun, 30 Jul 2023 09:15:23 +0000</pubDate>
       
-      <guid>https://aicube.fun/qwm23_kf4v4/</guid>
+      <guid>https://aicube.fun/post/qwm23_kf4v4/</guid>
       <description>In this post, we&amp;rsquo;ll walk through how to build your own AI assistant similar to ChatGPT using tools like OpenAI and GitHub Copilot.
 Overview We&amp;rsquo;ll build a chat interface using React We&amp;rsquo;ll create a backend server with Node.js and Express to communicate with OpenAI&amp;rsquo;s API We&amp;rsquo;ll configure multiple AI models like Codex to use for different prompts We&amp;rsquo;ll allow custom prompts and conversations with the AI assistant Tools Used OpenAI API ChatGPT model GitHub Copilot for auto-generating code React for frontend Node.</description>
     </item>
     
     <item>
       <title>Examining GPT Engineer - AI Generated Code</title>
-      <link>https://aicube.fun/bbfiqclvhns/</link>
+      <link>https://aicube.fun/post/bbfiqclvhns/</link>
       <pubDate>Sun, 30 Jul 2023 09:10:59 +0000</pubDate>
       
-      <guid>https://aicube.fun/bbfiqclvhns/</guid>
+      <guid>https://aicube.fun/post/bbfiqclvhns/</guid>
       <description>GPT Engineer is an AI tool that can generate an entire codebase from a single prompt by asking clarifying questions. It uses OpenAI&amp;rsquo;s GPT models under the hood.
 Overview GPT Engineer is created by Anton Seeker and has gotten a lot of stars on GitHub recently.</description>
     </item>
     
     <item>
       <title>GPT Engineer - Code Generation using AI</title>
-      <link>https://aicube.fun/qltentq_9rc/</link>
+      <link>https://aicube.fun/post/qltentq_9rc/</link>
       <pubDate>Sun, 30 Jul 2023 09:09:59 +0000</pubDate>
       
-      <guid>https://aicube.fun/qltentq_9rc/</guid>
+      <guid>https://aicube.fun/post/qltentq_9rc/</guid>
       <description>Overview GPT Engineer is a new open source tool that utilizes AI to generate code by conversing with the user. It builds on top of capabilities from ChatGPT and the OpenAI API.
 How it Works GPT Engineer allows prompts to be defined that specify requirements for an application.</description>
     </item>
     
     <item>
       <title>Automating Social Media Posts with AI</title>
-      <link>https://aicube.fun/mvdtqwfp_pg/</link>
+      <link>https://aicube.fun/post/mvdtqwfp_pg/</link>
       <pubDate>Sun, 30 Jul 2023 06:13:35 +0000</pubDate>
       
-      <guid>https://aicube.fun/mvdtqwfp_pg/</guid>
+      <guid>https://aicube.fun/post/mvdtqwfp_pg/</guid>
       <description>Social media marketing can be very time consuming, but AI tools offer an excellent way to automate content creation and posting. This allows you to consistently publish high-quality content without spending all your time crafting posts and managing accounts.
 Tools Used ChatGPT - Used to generate the text content for posts based on prompts.</description>
     </item>
     
     <item>
       <title>Using ChatGPT to Automate Tinder Messages</title>
-      <link>https://aicube.fun/vm55efbokcm/</link>
+      <link>https://aicube.fun/post/vm55efbokcm/</link>
       <pubDate>Sun, 30 Jul 2023 06:09:42 +0000</pubDate>
       
-      <guid>https://aicube.fun/vm55efbokcm/</guid>
+      <guid>https://aicube.fun/post/vm55efbokcm/</guid>
       <description>Overview This post describes an experiment using ChatGPT and other AI tools to automate sending customized messages to Tinder matches. The goal was to build an automated system to send engaging opening messages to matches on Tinder.
 Tools Used ChatGPT - to generate pickup lines and opening messages OpenAI API - to interface with ChatGPT Selenium - to automate logging in and interacting with the Tinder website Python - to code the bot Implementation Use Selenium to login to Tinder and auto-swipe right to get matches Get match names and profile links using Selenium Feed match names into ChatGPT prompts to generate custom pickup lines Send the messages to matches Results The bot was able to successfully login, get matches, generate messages, and send them.</description>
     </item>
     
     <item>
       <title>Using AI to Efficiently Create Lots of Video Content</title>
-      <link>https://aicube.fun/n60f64u9n_8/</link>
+      <link>https://aicube.fun/post/n60f64u9n_8/</link>
       <pubDate>Sun, 30 Jul 2023 06:08:44 +0000</pubDate>
       
-      <guid>https://aicube.fun/n60f64u9n_8/</guid>
+      <guid>https://aicube.fun/post/n60f64u9n_8/</guid>
       <description>AI tools like ChatGPT, InVideo, and AI voiceover can help you quickly and easily create lots of video content. Here&amp;rsquo;s how it works:
 Write Scripts with ChatGPT Use ChatGPT to effortlessly write high-quality scripts for your videos. Just give it some prompts about what you want the video to be about, and it will generate an entire script for you.</description>
     </item>
     
     <item>
       <title>Using AI to Automate and Optimize Social Media Marketing</title>
-      <link>https://aicube.fun/pk4fclcdimc/</link>
+      <link>https://aicube.fun/post/pk4fclcdimc/</link>
       <pubDate>Sun, 30 Jul 2023 05:36:33 +0000</pubDate>
       
-      <guid>https://aicube.fun/pk4fclcdimc/</guid>
+      <guid>https://aicube.fun/post/pk4fclcdimc/</guid>
       <description>Social media marketing is crucial for modern businesses, but managing multiple platforms and creating engaging content can be extremely time consuming. Thankfully, there are now a variety of AI tools that can help automate and optimize different parts of your social media strategy.</description>
     </item>
     
     <item>
       <title>Noam Chomsky discusses AI, education, climate change, and vaccines</title>
-      <link>https://aicube.fun/igxzcougvei/</link>
+      <link>https://aicube.fun/post/igxzcougvei/</link>
       <pubDate>Sun, 30 Jul 2023 05:34:27 +0000</pubDate>
       
-      <guid>https://aicube.fun/igxzcougvei/</guid>
+      <guid>https://aicube.fun/post/igxzcougvei/</guid>
       <description>Tools mentioned: ChatGPT, Google Translate, Live transcription
 The renowned philosopher and political activist Noam Chomsky recently participated in an interview covering several important topics:
 On AI and education ChatGPT and similar AI systems are just &amp;ldquo;high-tech plagiarism&amp;rdquo; and have no value for real understanding or education.</description>
@@ -89,28 +156,28 @@ On AI and education ChatGPT and similar AI systems are just &amp;ldquo;high-tech
     
     <item>
       <title>Use ChatGPT and Zapier to Automate Content Creation</title>
-      <link>https://aicube.fun/rkbcy8jqzzg/</link>
+      <link>https://aicube.fun/post/rkbcy8jqzzg/</link>
       <pubDate>Sun, 30 Jul 2023 05:15:56 +0000</pubDate>
       
-      <guid>https://aicube.fun/rkbcy8jqzzg/</guid>
+      <guid>https://aicube.fun/post/rkbcy8jqzzg/</guid>
       <description>Introduction ChatGPT and Zapier are powerful tools that can be used together to automate content creation and publishing. In this post, I&amp;rsquo;ll show you how to use these tools to analyze a YouTube video, generate tweets from it, and automatically publish them to Twitter.</description>
     </item>
     
     <item>
       <title>I Made an Entire Video Game Using Only AI-Generated Code</title>
-      <link>https://aicube.fun/l6vw0um5xtg/</link>
+      <link>https://aicube.fun/post/l6vw0um5xtg/</link>
       <pubDate>Sun, 30 Jul 2023 05:14:53 +0000</pubDate>
       
-      <guid>https://aicube.fun/l6vw0um5xtg/</guid>
+      <guid>https://aicube.fun/post/l6vw0um5xtg/</guid>
       <description>Introduction Recently, I discovered an amazing AI chatbot called ChatGPT that can generate code upon request. I was fascinated by its capabilities, so I decided to put it to the test by having it create an entire simple 2D video game for me.</description>
     </item>
     
     <item>
       <title>Use ChatGPT to Automate Your Instagram and Grow Your Followers</title>
-      <link>https://aicube.fun/mcvfw9rb3sq/</link>
+      <link>https://aicube.fun/post/mcvfw9rb3sq/</link>
       <pubDate>Sun, 30 Jul 2023 05:03:39 +0000</pubDate>
       
-      <guid>https://aicube.fun/mcvfw9rb3sq/</guid>
+      <guid>https://aicube.fun/post/mcvfw9rb3sq/</guid>
       <description>Social media can be time consuming to manage. But AI tools like ChatGPT make it easy to automate content creation and posting. In this guide, I&amp;rsquo;ll show you how I used ChatGPT and other AI tools to automatically generate and post content to Instagram daily.</description>
     </item>
     

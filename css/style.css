@@ -20,3 +20,7 @@ height: 100%;
       padding: .6rem;
     }
 }
+
+.pagination {
+    justify-content: space-between;
+}

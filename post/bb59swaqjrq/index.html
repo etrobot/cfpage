@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+
+<head>
+  <title>
+    AICube.FUN
+</title>
+<meta name="viewport" content="width=device-width">
+<meta name="title" content="Aicube.fun">
+<meta name="description" content="AICube.fun collects user cases of AI tools such as ChatGPT,Midjouney,Stable Diffusion,Claude,LLAMA...">
+<meta name="keywords" content=" Monetization,ChatGPT,Midjouney,Stable Diffusion,Claude,LLAMA,AI,Twitter,Instagram,Threads,Youtube,Github">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<link rel="stylesheet" href="https://unpkg.com/bulmaswatch/superhero/bulmaswatch.min.css">
+<link href="https://unpkg.com/@fortawesome/fontawesome-free@5.13.0/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<script src="https://cdn.bootcdn.net/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+<title>
+  AICube.FUN
+  </title>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7398757278741889"
+  crossorigin="anonymous"></script>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D6W5L8YCC4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-D6W5L8YCC4', { 'anonymize_ip': false });
+}
+</script>
+
+</head>
+
+<body class="theme-body">
+  <nav class="navbar is-fixed-top">
+  <div class="container">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <img src="/logo.png" width="112" height="28">
+    </a>
+    <a class="navbar-item" href="https://github.com/etrobot/hugo-theme-financlub" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+    <a class="navbar-item" href="https://twitter.com/etrobot" target="_blank">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <span class="navbar-burger burger" data-target="navbarMenuHero1">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </div>
+  <div id="navbarMenuHero1" class="navbar-menu">
+  <div class="navbar-end">
+  
+      <a class="navbar-item" href="/category/efficiency">efficiency</a>
+  
+      <a class="navbar-item" href="/category/ideas">ideas</a>
+  
+      <a class="navbar-item" href="/category/marketing">marketing</a>
+  
+      <a class="navbar-item" href="/category/model">model</a>
+  
+</div>
+</div>
+</div>
+</nav>
+  <div class="container theme-padding-mobile">
+    <section class="columns is-multiline">
+      <main class="column is-three-quaters">
+        
+<div class="block">
+  <div class="block">
+    <div class="media">
+      
+      
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <a href="/author/frank">
+            <img class="is-rounded" src="/avatar/frank.jpg" alt="frank">
+            <a>
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="block"><a class="title" href="https://aicube.fun/post/bb59swaqjrq/">Build a Chat App with Flutter and OpenAI API<a></a></p>
+          <p class="subtitle is-6">
+            <a href="/author/frank" class="button is-small is-black">Frank</a>
+            <a href="/category/efficiency" class="button is-small is-outlined is-info">efficiency</a>
+            <span class="button is-small is-outlined">2023-07-31</span>
+          </p>
+          </div>
+    </div>
+  </div>
+    <article class="content">
+      <h2 id="introduction">Introduction</h2>
+<p>Chat apps have become immensely popular in recent years. In this post, we will learn how to build a simple chat app using Flutter and the OpenAI API.</p>
+<h3 id="what-is-flutter">What is Flutter?</h3>
+<p>Flutter is an open-source framework developed by Google for building cross-platform mobile apps. Some key advantages of Flutter:</p>
+<ul>
+<li>Single codebase for iOS and Android apps</li>
+<li>Fast development with Hot Reload feature</li>
+<li>Excellent performance and UI</li>
+<li>Native performance with Skia graphics engine</li>
+<li>Supports building web apps as well</li>
+</ul>
+<h3 id="what-is-openai-api">What is OpenAI API?</h3>
+<p>OpenAI API provides access to powerful AI models like GPT-3 for generating human-like text content. With the API, you can integrate AI capabilities into your apps.</p>
+<h3 id="what-we-will-build">What we will build</h3>
+<p>We will build a basic chat app that allows a user to chat with an AI assistant powered by OpenAI&rsquo;s Davinci 003 model. The app will have the following features:</p>
+<ul>
+<li>User can type and send messages</li>
+<li>AI assistant will reply with human-like responses</li>
+<li>User can select different AI models</li>
+</ul>
+<h2 id="project-setup">Project Setup</h2>
+<p>Let&rsquo;s start by creating a new Flutter project and installing the required packages:</p>
+<pre tabindex="0"><code>- http: For making API requests
+- provider: For state management  
+- flutter_spinkit: For showing a loader 
+- animated_text_kit: For animating bot&#39;s text
+</code></pre><p>We will also set up a simple theme and app structure with MVC pattern:</p>
+<pre tabindex="0"><code>- lib
+  - constants
+  - models 
+  - providers
+  - services
+  - widgets
+  - screens
+</code></pre><h2 id="building-the-ui">Building the UI</h2>
+<p>The main UI will consist of a Scaffold with an AppBar and a chat screen. The chat screen will show a list of chat messages using a ListView builder.</p>
+<p>We will build reusable widgets like the <code>TextWidget</code> and <code>ChatMessage</code> to display texts and chat bubbles respectively.</p>
+<p>For the input field, we use a TextEditingController to get user&rsquo;s input and pass it to our send message function.</p>
+<p>We also add a bottom sheet to allow selecting different AI models. This uses a DropdownButton attached to a list of models fetched from the API.</p>
+<p>The chosen model is persisted using the ModelProvider.</p>
+<h2 id="integrating-openai-api">Integrating OpenAI API</h2>
+<p>To call the API, we create an API service class with methods like:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>getModels() <span style="color:#75715e"># Fetch list of models</span>
+</span></span><span style="display:flex;"><span>sendMessage(message, model) <span style="color:#75715e"># Get bot response </span>
+</span></span></code></pre></div><p>The API requires API key and model ID in the request body for authorization and to select the AI model respectively.</p>
+<p>We make a POST request to the <code>/v1/chat/completions</code> endpoint.</p>
+<p>The response contains the bot&rsquo;s reply in the <code>choices[0].text</code> field which we extract and display.</p>
+<p>To manage the chat state across app, we create a provider called ChatProvider that stores the chat messages in a list.</p>
+<h2 id="final-steps">Final Steps</h2>
+<p>Some final touches like:</p>
+<ul>
+<li>Showing a loader while fetching bot response</li>
+<li>Animating bot&rsquo;s text for a more realistic feel</li>
+<li>Automate scrolling when new messages arrive</li>
+<li>Basic error handling</li>
+</ul>
+<p>And that concludes this tutorial on building a simple chat app with Flutter and OpenAI API! Let me know in the comments if you have any other questions.</p>
+<h3 id="reference">Reference:</h3>
+<p>Build ChatGPT App in Flutter using OpenAI API - Full Course:
+
+<div class="allow_fullscreen">
+  <iframe src="https://www.youtube.com/embed/BB59SwaQjrQ" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+
+    </article>
+    <p class="subtitle is-6">Tags:</p>
+    <div class="tags are-small">
+      
+        <a href="https://aicube.fun/tags/flutter" class="tag subtitle is-7 is-dark">Flutter</a>
+      
+        <a href="https://aicube.fun/tags/openai-api" class="tag subtitle is-7 is-dark">OpenAI API</a>
+      
+        <a href="https://aicube.fun/tags/text-davinci-003-ai-model" class="tag subtitle is-7 is-dark">Text Davinci 003 AI model</a>
+      
+      </div>
+    <div class="block">
+        
+        <p class="subtitle is-6 m-1">Previous Post: <a class="link" href="https://aicube.fun/post/v3f2gvrc7bo/">Using AI to Automate Your Sales and Marketing</a></p>
+        
+        
+        <p class="subtitle is-6 m-1">Next Post: <a class="link" href="https://aicube.fun/post/ueydma7zyzk/">Use ChatGPT to Write Your Resume</a></p>
+        
+    </div>
+</div>
+
+      </main>
+      <aside class="column is-one-fifth is-full-mobile">
+    
+    
+    <div class="block">
+        <div class="block"><a class="subtitle is-6" href="/author">Authors</a></div>
+        <div class="tags are-medium">
+            
+            <div class="tag is-black">
+                <a href="/author/frank">frank (48)</a>
+            </div>
+            
+        </div>
+        
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-7398757278741889"
+        data-ad-slot="7456114770"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+        <div class="block"><a class="subtitle is-6" href="/tags">Tags</a></div>
+        <div class="tags are-medium">
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/ai-tool">ai-tool (2)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/anthropic">anthropic (2)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/canva">canva (4)</a>
+                </span>
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/chatgpt">chatgpt (18)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/google-colab">google-colab (2)</a>
+                </span>
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/google-sheets">google-sheets (2)</a>
+                </span>
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/gpt">gpt (3)</a>
+                </span>
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/gpt-3">gpt-3 (5)</a>
+                </span>
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/gpt-engineer">gpt-engineer (3)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/openai">openai (2)</a>
+                </span>
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/openai-api">openai-api (6)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/python">python (3)</a>
+                </span>
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/repurpose.io">repurpose.io (2)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/stable-diffusion">stable-diffusion (3)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/twitter">twitter (3)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/zapier">zapier (3)</a>
+                </span>
+            
+            
+        </div>
+    </div>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</aside>
+    </section>
+  </div>
+  <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      © 2023 Frank Lin
+    </p>
+  </div>
+</footer>
+</body>
+<script type="text/javascript">
+$(function() {
+  $('.modal-background, .modal-close').click(function() {
+    $('html').removeClass('is-clipped');
+    $(this).parent().removeClass('is-active');
+  });
+  $('.theme-switcher').change(function(e) {
+    if (e.target.value) {
+      window.location.href = '/bulmaswatch/' + e.target.value;
+    }
+  });
+
+  
+  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  
+  if ($navbarBurgers.length > 0) {
+
+    
+    $navbarBurgers.forEach(function ($el) {
+      $el.addEventListener('click', () => {
+
+        
+        var target = $el.dataset.target;
+        var $target = document.getElementById(target);
+
+        
+        $el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+});
+  </script>
+</html>

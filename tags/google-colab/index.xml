@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 30 Jul 2023 08:52:46 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/google-colab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Fast Guide to Using SDXL with Conf UI</title>
-      <link>https://aicube.fun/tyk6tav-gvc/</link>
+      <link>https://aicube.fun/post/tyk6tav-gvc/</link>
       <pubDate>Sun, 30 Jul 2023 08:52:46 +0000</pubDate>
       
-      <guid>https://aicube.fun/tyk6tav-gvc/</guid>
+      <guid>https://aicube.fun/post/tyk6tav-gvc/</guid>
       <description>Overview This post provides a quick tutorial on using the SDXL AI model with Conf UI for fast high-quality image generation.
 Steps Download and install Conf UI from the provided link. Be sure to update to the latest version.
 Open the Conf UI canvas and import the pre-made SDXL workflow provided.</description>
@@ -20,10 +20,10 @@ Open the Conf UI canvas and import the pre-made SDXL workflow provided.</descrip
     
     <item>
       <title>Creating a Deepfake with a Single Image</title>
-      <link>https://aicube.fun/bm5t6mekgum/</link>
+      <link>https://aicube.fun/post/bm5t6mekgum/</link>
       <pubDate>Sun, 30 Jul 2023 08:50:43 +0000</pubDate>
       
-      <guid>https://aicube.fun/bm5t6mekgum/</guid>
+      <guid>https://aicube.fun/post/bm5t6mekgum/</guid>
       <description>Introduction This post outlines a tutorial for creating a deepfake video using only a single image as the source for the target face. This method is fast and can produce remarkably realistic results.
 Tools Used The main tools used in this tutorial are:</description>
     </item>
