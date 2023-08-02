@@ -24,3 +24,4 @@ hugo.linux
 /AIReadPayed.py
 *.csv
 __pycache__/
+.DS_Store
