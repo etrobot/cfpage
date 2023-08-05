@@ -6,7 +6,25 @@
     <description>Recent content in Tags on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Aug 2023 03:57:32 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Aug 2023 04:25:17 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Indie Hacker</title>
+      <link>https://aicube.fun/tags/indie-hacker/</link>
+      <pubDate>Sat, 05 Aug 2023 04:25:17 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/indie-hacker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stable Diffusion</title>
+      <link>https://aicube.fun/tags/stable-diffusion/</link>
+      <pubDate>Sat, 05 Aug 2023 04:25:17 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/stable-diffusion/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>GitHub</title>
       <link>https://aicube.fun/tags/github/</link>
@@ -85,15 +103,6 @@
       <pubDate>Mon, 31 Jul 2023 16:26:44 +0000</pubDate>
       
       <guid>https://aicube.fun/tags/large-language-models/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stable Diffusion</title>
-      <link>https://aicube.fun/tags/stable-diffusion/</link>
-      <pubDate>Mon, 31 Jul 2023 16:26:44 +0000</pubDate>
-      
-      <guid>https://aicube.fun/tags/stable-diffusion/</guid>
       <description></description>
     </item>
     
