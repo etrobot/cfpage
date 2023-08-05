@@ -6,7 +6,43 @@
     <description>Recent content in Tags on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Aug 2023 14:51:41 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Aug 2023 03:57:32 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub</title>
+      <link>https://aicube.fun/tags/github/</link>
+      <pubDate>Sat, 05 Aug 2023 03:57:32 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Product Hunt</title>
+      <link>https://aicube.fun/tags/product-hunt/</link>
+      <pubDate>Sat, 05 Aug 2023 03:57:32 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/product-hunt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twitter</title>
+      <link>https://aicube.fun/tags/twitter/</link>
+      <pubDate>Sat, 05 Aug 2023 03:57:32 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nomadlist</title>
+      <link>https://aicube.fun/tags/nomadlist/</link>
+      <pubDate>Sat, 05 Aug 2023 03:56:17 +0000</pubDate>
+      
+      <guid>https://aicube.fun/tags/nomadlist/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Anthropic Claude</title>
       <link>https://aicube.fun/tags/anthropic-claude/</link>
@@ -431,20 +467,11 @@
     </item>
     
     <item>
-      <title>GitHub</title>
-      <link>https://aicube.fun/tags/github/</link>
+      <title>Roop</title>
+      <link>https://aicube.fun/tags/roop/</link>
       <pubDate>Sun, 30 Jul 2023 09:03:29 +0000</pubDate>
       
-      <guid>https://aicube.fun/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rupe</title>
-      <link>https://aicube.fun/tags/rupe/</link>
-      <pubDate>Sun, 30 Jul 2023 09:03:29 +0000</pubDate>
-      
-      <guid>https://aicube.fun/tags/rupe/</guid>
+      <guid>https://aicube.fun/tags/roop/</guid>
       <description></description>
     </item>
     
@@ -517,15 +544,6 @@
       <pubDate>Sun, 30 Jul 2023 08:51:47 +0000</pubDate>
       
       <guid>https://aicube.fun/tags/automatic1111/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RuBE</title>
-      <link>https://aicube.fun/tags/rube/</link>
-      <pubDate>Sun, 30 Jul 2023 08:51:47 +0000</pubDate>
-      
-      <guid>https://aicube.fun/tags/rube/</guid>
       <description></description>
     </item>
     
@@ -967,15 +985,6 @@
       <pubDate>Sun, 30 Jul 2023 05:03:39 +0000</pubDate>
       
       <guid>https://aicube.fun/tags/dall-e/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Twitter</title>
-      <link>https://aicube.fun/tags/twitter/</link>
-      <pubDate>Mon, 24 Jul 2023 23:49:00 -0600</pubDate>
-      
-      <guid>https://aicube.fun/tags/twitter/</guid>
       <description></description>
     </item>
     
