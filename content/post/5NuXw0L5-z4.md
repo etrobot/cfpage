@@ -5,7 +5,7 @@ date: 2023-08-02T14:51:41
 draft: true
 tags: ['Anthropic Claude']
 author: Frank
-category: science
+category: Technology
 ---
 
 Researchers from Korea recently announced the discovery of LK-99, the first room temperature superconductor. This new material could enable significant advancements in energy transmission, computing, medical imaging, and more. 

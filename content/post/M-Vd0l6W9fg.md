@@ -5,7 +5,7 @@ date: 2023-07-30T09:03:29
 draft: true
 tags: ['Stable Diffusion', 'Roop', 'GitHub']
 author: Frank
-category: efficiency
+category: Efficiency
 ---
 
 ## Introduction
@@ -16,7 +16,7 @@ Roop is a new extension for swapping faces in images generated with Stable Diffu
 
 Installing Roop in Stable Diffusion is very easy. Just go to the Extensions tab in the UI, click on "Load from URL" under the Available section, and install the Roop extension from the SD Web UI Extensions group. After installing, enable Roop in the Installed tab and restart the UI.
 
-Roop is available on [GitHub](https://github.com/ Automatic1111/stable-diffusion-webui-Roop), where you can find extra tips and information, like needing to install Microsoft Visual Studio on Windows.
+Roop is available on [GitHub](https://github.com/Automatic1111/stable-diffusion-webui-Roop), where you can find extra tips and information, like needing to install Microsoft Visual Studio on Windows.
 
 ## Usage
 

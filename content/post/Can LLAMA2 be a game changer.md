@@ -4,7 +4,7 @@ title: "Can LLAMA2 be a game changer?"
 date: 2023-07-23T21:40:00-06:00
 draft: true
 tags: ['LLAMA', 'Large Language Model']
-category: model
+category: Technology
 author: Frank
 ---
 
