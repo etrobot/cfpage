@@ -2,17 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://aicube.fun/tags/ai-assistant/</loc>
+    <lastmod>2023-08-08T15:24:31+00:00</lastmod>
+  </url><url>
     <loc>https://aicube.fun/</loc>
-    <lastmod>2023-08-05T04:25:17+00:00</lastmod>
+    <lastmod>2023-08-08T15:24:31+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/author/</loc>
-    <lastmod>2023-08-05T04:25:17+00:00</lastmod>
+    <lastmod>2023-08-08T15:24:31+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/category/</loc>
-    <lastmod>2023-08-05T04:25:17+00:00</lastmod>
+    <lastmod>2023-08-08T15:24:31+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/author/frank/</loc>
-    <lastmod>2023-08-05T04:25:17+00:00</lastmod>
+    <lastmod>2023-08-08T15:24:31+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/tags/natural-language-processing/</loc>
+    <lastmod>2023-08-08T15:24:31+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/post/</loc>
+    <lastmod>2023-08-08T15:24:31+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/post/skbeomcsqai/</loc>
+    <lastmod>2023-08-08T15:24:31+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/tags/</loc>
+    <lastmod>2023-08-08T15:24:31+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/category/thoughts/</loc>
+    <lastmod>2023-08-08T15:24:31+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/tags/compressed-earth-blocks/</loc>
+    <lastmod>2023-08-08T15:23:21+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/tags/mud-and-tire-construction/</loc>
+    <lastmod>2023-08-08T15:23:21+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/tags/mud-bricks/</loc>
+    <lastmod>2023-08-08T15:23:21+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/tags/rammed-earth/</loc>
+    <lastmod>2023-08-08T15:23:21+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/post/eume_9qkxi8/</loc>
+    <lastmod>2023-08-08T15:23:21+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/tags/anthropic-claude-ai/</loc>
+    <lastmod>2023-08-08T15:17:22+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/post/xy5o2shsmjs/</loc>
+    <lastmod>2023-08-08T15:17:22+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/tags/gpt-3-by-anthropic/</loc>
+    <lastmod>2023-08-08T15:16:15+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/post/obpp0d6m7lu/</loc>
+    <lastmod>2023-08-08T15:16:15+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/category/ideas/</loc>
     <lastmod>2023-08-05T04:25:17+00:00</lastmod>
@@ -20,13 +65,7 @@
     <loc>https://aicube.fun/tags/indie-hacker/</loc>
     <lastmod>2023-08-05T04:25:17+00:00</lastmod>
   </url><url>
-    <loc>https://aicube.fun/post/</loc>
-    <lastmod>2023-08-05T04:25:17+00:00</lastmod>
-  </url><url>
     <loc>https://aicube.fun/tags/stable-diffusion/</loc>
-    <lastmod>2023-08-05T04:25:17+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/</loc>
     <lastmod>2023-08-05T04:25:17+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/post/clone-interiorai.com-with-stable-diffusion/</loc>
@@ -56,7 +95,7 @@
     <loc>https://aicube.fun/tags/anthropic-claude/</loc>
     <lastmod>2023-08-02T14:51:41+00:00</lastmod>
   </url><url>
-    <loc>https://aicube.fun/category/science/</loc>
+    <loc>https://aicube.fun/category/technology/</loc>
     <lastmod>2023-08-02T14:51:41+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/post/5nuxw0l5-z4/</loc>
@@ -519,9 +558,6 @@
     <lastmod>2023-07-23T21:40:00-06:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/tags/llama/</loc>
-    <lastmod>2023-07-23T21:40:00-06:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/category/model/</loc>
     <lastmod>2023-07-23T21:40:00-06:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/post/how-to-promote-a-product-on-meta-threads/</loc>
