@@ -123,7 +123,7 @@ if (!doNotTrack) {
 <pre tabindex="0"><code>- http: For making API requests
 - provider: For state management  
 - flutter_spinkit: For showing a loader 
-- animated_text_kit: For animating bot&#39;s text
+- animated_text_kit: For animating bot's text
 </code></pre><p>We will also set up a simple theme and app structure with MVC pattern:</p>
 <pre tabindex="0"><code>- lib
   - constants
@@ -140,9 +140,9 @@ if (!doNotTrack) {
 <p>The chosen model is persisted using the ModelProvider.</p>
 <h2 id="integrating-openai-api">Integrating OpenAI API</h2>
 <p>To call the API, we create an API service class with methods like:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>getModels() <span style="color:#75715e"># Fetch list of models</span>
-</span></span><span style="display:flex;"><span>sendMessage(message, model) <span style="color:#75715e"># Get bot response </span>
-</span></span></code></pre></div><p>The API requires API key and model ID in the request body for authorization and to select the AI model respectively.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">getModels() <span style="color:#75715e"># Fetch list of models</span>
+sendMessage(message, model) <span style="color:#75715e"># Get bot response </span>
+</code></pre></div><p>The API requires API key and model ID in the request body for authorization and to select the AI model respectively.</p>
 <p>We make a POST request to the <code>/v1/chat/completions</code> endpoint.</p>
 <p>The response contains the bot&rsquo;s reply in the <code>choices[0].text</code> field which we extract and display.</p>
 <p>To manage the chat state across app, we create a provider called ChatProvider that stores the chat messages in a list.</p>
@@ -193,7 +193,7 @@ if (!doNotTrack) {
         <div class="tags are-medium">
             
             <div class="tag is-black">
-                <a href="/author/frank">frank (64)</a>
+                <a href="/author/frank">frank (57)</a>
             </div>
             
         </div>
@@ -214,6 +214,8 @@ if (!doNotTrack) {
             
             
             
+            
+            
                 <span class="tag is-black">
                     <a href="/tags/ai-tool">ai-tool (2)</a>
                 </span>
@@ -225,7 +227,7 @@ if (!doNotTrack) {
             
             
                 <span class="tag is-black">
-                    <a href="/tags/anthropic">anthropic (4)</a>
+                    <a href="/tags/anthropic">anthropic (2)</a>
                 </span>
             
             
@@ -251,20 +253,8 @@ if (!doNotTrack) {
             
             
                 <span class="tag is-black">
-                    <a href="/tags/chatgpt">chatgpt (19)</a>
+                    <a href="/tags/chatgpt">chatgpt (18)</a>
                 </span>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
             
             
             
@@ -320,8 +310,6 @@ if (!doNotTrack) {
             
             
             
-            
-            
                 <span class="tag is-black">
                     <a href="/tags/google-colab">google-colab (2)</a>
                 </span>
@@ -350,15 +338,11 @@ if (!doNotTrack) {
             
             
             
+            
+            
                 <span class="tag is-black">
                     <a href="/tags/gpt-engineer">gpt-engineer (3)</a>
                 </span>
-            
-            
-            
-            
-            
-            
             
             
             
@@ -460,13 +444,11 @@ if (!doNotTrack) {
             
             
             
-            
-            
-            
-            
                 <span class="tag is-black">
                     <a href="/tags/python">python (3)</a>
                 </span>
+            
+            
             
             
             
@@ -508,14 +490,6 @@ if (!doNotTrack) {
             
             
             
-                <span class="tag is-black">
-                    <a href="/tags/ted">ted (2)</a>
-                </span>
-            
-            
-            
-            
-            
             
             
             
@@ -533,10 +507,6 @@ if (!doNotTrack) {
                 <span class="tag is-black">
                     <a href="/tags/twitter">twitter (4)</a>
                 </span>
-            
-            
-            
-            
             
             
             
