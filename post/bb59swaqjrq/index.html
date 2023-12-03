@@ -36,7 +36,7 @@ if (!doNotTrack) {
 </head>
 
 <body class="theme-body">
-  <nav class="navbar is-fixed-top">
+  <nav class="navbar is-dark is-fixed-top">
   <div class="container">
   <div class="navbar-brand">
     <a class="navbar-item" href="/">
@@ -56,6 +56,8 @@ if (!doNotTrack) {
   </div>
   <div id="navbarMenuHero1" class="navbar-menu">
   <div class="navbar-end">
+  
+      <a class="navbar-item" href="/category/agents">agents</a>
   
       <a class="navbar-item" href="/category/efficiency">efficiency</a>
   
@@ -91,7 +93,7 @@ if (!doNotTrack) {
         <p class="block"><a class="title" href="https://aicube.fun/post/bb59swaqjrq/">Build a Chat App with Flutter and OpenAI API<a></a></p>
           <p class="subtitle is-6">
             <a href="/author/frank" class="button is-small is-black">Frank</a>
-            <a href="/category/efficiency" class="button is-small is-outlined is-info">efficiency</a>
+            <a href="/category/efficiency" class="button is-small is-outlined ">efficiency</a>
             <span class="button is-small is-outlined">2023-07-31</span>
           </p>
           </div>
@@ -123,7 +125,7 @@ if (!doNotTrack) {
 <pre tabindex="0"><code>- http: For making API requests
 - provider: For state management  
 - flutter_spinkit: For showing a loader 
-- animated_text_kit: For animating bot's text
+- animated_text_kit: For animating bot&#39;s text
 </code></pre><p>We will also set up a simple theme and app structure with MVC pattern:</p>
 <pre tabindex="0"><code>- lib
   - constants
@@ -140,9 +142,9 @@ if (!doNotTrack) {
 <p>The chosen model is persisted using the ModelProvider.</p>
 <h2 id="integrating-openai-api">Integrating OpenAI API</h2>
 <p>To call the API, we create an API service class with methods like:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">getModels() <span style="color:#75715e"># Fetch list of models</span>
-sendMessage(message, model) <span style="color:#75715e"># Get bot response </span>
-</code></pre></div><p>The API requires API key and model ID in the request body for authorization and to select the AI model respectively.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>getModels() <span style="color:#75715e"># Fetch list of models</span>
+</span></span><span style="display:flex;"><span>sendMessage(message, model) <span style="color:#75715e"># Get bot response </span>
+</span></span></code></pre></div><p>The API requires API key and model ID in the request body for authorization and to select the AI model respectively.</p>
 <p>We make a POST request to the <code>/v1/chat/completions</code> endpoint.</p>
 <p>The response contains the bot&rsquo;s reply in the <code>choices[0].text</code> field which we extract and display.</p>
 <p>To manage the chat state across app, we create a provider called ChatProvider that stores the chat messages in a list.</p>
@@ -194,6 +196,10 @@ sendMessage(message, model) <span style="color:#75715e"># Get bot response </spa
             
             <div class="tag is-black">
                 <a href="/author/frank">frank (57)</a>
+            </div>
+            
+            <div class="tag is-black">
+                <a href="/author/frank-lin">frank-lin (1)</a>
             </div>
             
         </div>
@@ -529,6 +535,14 @@ sendMessage(message, model) <span style="color:#75715e"># Get bot response </spa
                 <span class="tag is-black">
                     <a href="/tags/zapier">zapier (3)</a>
                 </span>
+            
+            
+            
+            
+            
+            
+            
+            
             
             
         </div>

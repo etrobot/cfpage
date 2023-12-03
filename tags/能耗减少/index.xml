@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>能耗减少 on AICube.FUN</title>
+    <link>https://aicube.fun/tags/%E8%83%BD%E8%80%97%E5%87%8F%E5%B0%91/</link>
+    <description>Recent content in 能耗减少 on AICube.FUN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Dec 2023 06:04:49 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/%E8%83%BD%E8%80%97%E5%87%8F%E5%B0%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>探索人工智能模型优化之路</title>
+      <link>https://aicube.fun/post/20231203-06_05/</link>
+      <pubDate>Sun, 03 Dec 2023 06:04:49 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/20231203-06_05/</guid>
+      <description>探索人工智能模型优化之路——Mistral 7B、OpenOrca GGUF与llama</description>
+    </item>
+    
+  </channel>
+</rss>
