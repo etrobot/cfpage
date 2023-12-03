@@ -18,7 +18,7 @@
           <a class="title is-6" href="{{ .Permalink }}">{{ .Title }}<a>
             </div>
           <p class="subtitle is-6">
-            <a href="/author/{{$authorName}}" class="button is-small is-black">{{.Params.author}}</a>
+            <a href="/author/{{$authorName}}" class="button is-small is-dark">{{.Params.author}}</a>
             <a href="/category/{{$categoryName}}" class="button is-small is-outlined {{index .Site.Params.catesytles $categoryName }}">{{.Params.category}}</a>
             <span class="button is-small is-outlined">{{ .Date.Format (.Site.Params.dateFormat | default "2006-01-02") }}</span>
           </p>
