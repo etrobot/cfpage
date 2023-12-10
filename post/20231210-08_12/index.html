@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+
+<head>
+  <title>
+    AICube.FUN
+</title>
+<meta name="viewport" content="width=device-width">
+<meta name="title" content="Aicube.fun">
+<meta name="description" content="AICube.fun collects user cases of AI tools such as ChatGPT,Midjouney,Stable Diffusion,Claude,LLAMA...">
+<meta name="keywords" content=" Monetization,ChatGPT,Midjouney,Stable Diffusion,Claude,LLAMA,AI,Twitter,Instagram,Threads,Youtube,Github">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<link rel="stylesheet" href="https://unpkg.com/bulmaswatch/superhero/bulmaswatch.min.css">
+<link href="https://unpkg.com/@fortawesome/fontawesome-free@5.13.0/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<script src="https://cdn.bootcdn.net/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+<title>
+  AICube.FUN
+  </title>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7398757278741889"
+  crossorigin="anonymous"></script>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D6W5L8YCC4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-D6W5L8YCC4', { 'anonymize_ip': false });
+}
+</script>
+
+</head>
+
+<body class="theme-body">
+  <nav class="navbar is-dark is-fixed-top">
+  <div class="container">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <img src="/logo.png" width="112" height="28">
+    </a>
+    <a class="navbar-item" href="https://github.com/etrobot/hugo-theme-financlub" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+    <a class="navbar-item" href="https://twitter.com/etrobot" target="_blank">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <span class="navbar-burger burger" data-target="navbarMenuHero1">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </div>
+  <div id="navbarMenuHero1" class="navbar-menu">
+  <div class="navbar-end">
+  
+      <a class="navbar-item" href="/category/agents">agents</a>
+  
+      <a class="navbar-item" href="/category/efficiency">efficiency</a>
+  
+      <a class="navbar-item" href="/category/ideas">ideas</a>
+  
+      <a class="navbar-item" href="/category/marketing">marketing</a>
+  
+      <a class="navbar-item" href="/category/technology">technology</a>
+  
+      <a class="navbar-item" href="/category/thoughts">thoughts</a>
+  
+</div>
+</div>
+</div>
+</nav>
+  <div class="container theme-padding-mobile">
+    <section class="columns is-multiline">
+      <main class="column is-three-quaters">
+        
+<div class="block">
+  <div class="block">
+    <div class="media">
+      
+      
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <a href="/author/frank-lin">
+            <img class="is-rounded" src="/avatar/frank-lin.jpg" alt="frank-lin">
+            <a>
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="block"><a class="title" href="https://aicube.fun/post/20231210-08_12/">人工智能最新资讯<a></a></p>
+          <p class="subtitle is-6">
+            <a href="/author/frank-lin" class="button is-small is-dark">Frank Lin</a>
+            <a href="/category/agents" class="button is-small is-outlined is-primary">Agents</a>
+            <span class="button is-small is-outlined">2023-12-10</span>
+          </p>
+          </div>
+    </div>
+  </div>
+    <article class="content">
+      <h2 id="人工智能最新资讯">人工智能最新资讯</h2>
+<h3 id="2023年12月9日">2023年12月9日</h3>
+<h4 id="llama_index">@llama_index</h4>
+<p>一种扩展RAG系统的强有力方式是允许查询结构化和非结构化数据。不仅仅是做top-k，而是编写一个可以针对您的数据系统执行的DSL。 我们现在完全支持以下向量数据库的精确匹配和范围查询：</p>
+<ul>
+<li><a href="https://github.com/run-llama/llama_index/blob/main/docs/examples/vector_stores/Qdrant_metadata_filter.ipynb">@qdrant_engine</a></li>
+<li><a href="https://github.com/run-llama/llama_index/blob/main/docs/examples/vector_stores/WeaviateIndex_metadata_filter.ipynb">@weaviate_io</a></li>
+<li><a href="https://github.com/run-llama/llama_index/blob/main/docs/examples/vector_stores/chroma_metadata_filter.ipynb">@trychroma</a></li>
+<li><a href="https://github.com/run-llama/llama_index/blob/main/docs/examples/vector_stores/pinecone_metadata_filter.ipynb">@pinecone</a></li>
+</ul>
+<p>我们还在postgres中有一个特殊案例，其中DSL可以直接提示LLM编写pgvector SQL。</p>
+<ul>
+<li><a href="https://github.com/run-llama/llama_index/blob/main/docs/examples/query_engine/pgvector_sql_query_engine.ipynb">pgvector</a></li>
+</ul>
+<h4 id="langchainai">@LangChainAI</h4>
+<p>🚨新论文警报 - LLMCompiler</p>
+<p>如果你喜欢@karpathy在&quot;&ldquo;LLM OS&quot;&ldquo;上的视频，你一定会想看看这篇论文（附带完整的开源存储库！）。这个系统可以在大规模运行中编制执行多个任务的有效计划。</p>
+<ul>
+<li>论文：<a href="https://arxiv.org/abs/2312.04511">arxiv.org/abs/2312.04511</a></li>
+<li>代码：<a href="https://github.com/SqueezeAILab/LLMCompiler">github.com/SqueezeAILab/LLMC…</a></li>
+</ul>
+<h4 id="gdb">@gdb</h4>
+<p>重要的领导力技能是准确地传达你的意图——也就是提出成功执行的属性，同时留下如何实现这些目标的选择权交由团队提议。</p>
+<h4 id="drjimfan">@DrJimFan</h4>
+<p>人类选择了未来更多磁力链接和HF存储库的道路👏。 Mistral磁力链接很棒，但让我们把时间表安排好。我的学生和英伟达实习生Fuzhao在4个月前开源了一个仅解码器的MoE。 Google Switch Transformer，一个基于T5的MoE，已经开源。</p>
+<p>以上为中文专栏『人工智能最新资讯』的推文节选，供参考。</p>
+<hr>
+<h3 id="2023年12月10日">2023年12月10日</h3>
+<p>@Saboo_Shubham_ 发布了一条有关构建多模态数据聊天机器人的免费网络研讨会信息。LangChain 提供了一个机会，让参与者学习如何使用 LangChain 构建多模态聊天机器人。有兴趣的读者可以在 <a href="https://events.singlestore.com/webinar-beginners-guide-to-langchain-chat-with-your-multi-model-data?utm_source=shubham-saboo&amp;utm_medium=influencer&amp;utm_campaign=Beginners-Guide-Langchain-RSVP">这里</a> 报名参加。</p>
+<p>@Saboo_Shubham_ 还发布了有关 Mistral 8x7B 在 LangSmith Playground 上线的消息。该模型使用了由火箭AI团队的实现，他们通过参数名称逆向工程了该架构。详情请点击 <a href="https://x.com/i/status/1733672915130847419/video/1">此链接</a> 查看。</p>
+<h3 id="2023年12月9日-1">2023年12月9日</h3>
+<p>@siddddhesh 分享了一条关于 Data &amp; AI 社区的信息，包括 AI、科学分析以及机器学习和深度学习方面的专家。感兴趣的读者可以在推特上关注这些专家。</p>
+<p>@Saboo_Shubham_ 发布了一条关于 Mistral MoE 的修正信息，并提到了 Google 的 switch transformer 和 @XueFz 的 OpenMoE。</p>
+<p>@Saboo_Shubham_ 宣传了一个免费网络研讨会，主题是如何创建自己的聊天 LLMs、AI 代理以及使用检索增强生成（RAG）。有兴趣的读者可以在 <a href="https://www.eventbrite.com/e/retrieval-apis-chat-llms-ai-agents-build-llm-apps-at-scale-tickets-773408364237?aff=oddtdtcreator">这里</a> 登记参加。</p>
+<p>@Saboo_Shubham_ 发布了有关 Mistral AI 发布首个开源的 MoE 模型的消息。同时提到了有趣的细节和对 Google 和 Mistral AI 的评价。</p>
+<h3 id="2023年12月8日">2023年12月8日</h3>
+<p><strong>今天的人工智能新闻就在这里了：</strong></p>
+<ol>
+<li>
+<p>Rowan Cheung分享了Grok的关键见解，并承诺在他的通讯中提供更深入的报告。<a href="https://www.therundown.ai/subscribe">点击这里</a>加入40万多读者，永远不会错过人工智能领域的任何信息。</p>
+</li>
+<li>
+<p>Grok将拥有可共享的聊天，类似于ChatGPT。<a href="https://share.x.ai/conversation/cfd1c5aa-03ad-4bc9-9dac-562be3df51b5">点击这里</a>查看Grok的聊天。</p>
+</li>
+<li>
+<p>Grok用户很快将能够提交有关AI回答问题的反馈。这包括撰写最佳回应，以帮助AI随着时间的推移得到更好的训练。</p>
+</li>
+<li>
+<p>Grok拥有独特的个性，可以戏弄𝕏中的任何个人简介。</p>
+</li>
+<li>
+<p>Grok有两种模式，包括常规模式和娱乐模式。娱乐模式下的Grok拥有独特的个性，比ChatGPT的沉闷回应更加“有趣”。</p>
+</li>
+<li>
+<p>Grok不仅可以为您总结新闻，还可以提供引用推文的相关信息。</p>
+</li>
+<li>
+<p>与ChatGPT（或任何其他LLM）不同，Grok可以访问𝕏上的实时信息。</p>
+</li>
+<li>
+<p>Grok直接集成到𝕏（原Twitter）中，并将在平台内拥有自己独特的标签。</p>
+</li>
+<li>
+<p>关于如何访问Grok的具体方法。</p>
+</li>
+</ol>
+<p><strong>希望这些信息对你有所帮助，记得点赞或转发支持内容哦！👍</strong></p>
+
+    </article>
+    <p class="subtitle is-6">Tags:</p>
+    <div class="tags are-small">
+      
+        <a href="https://aicube.fun/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD" class="tag subtitle is-7 is-dark">人工智能</a>
+      
+        <a href="https://aicube.fun/tags/%E6%9C%80%E6%96%B0%E8%B5%84%E8%AE%AF" class="tag subtitle is-7 is-dark">最新资讯</a>
+      
+        <a href="https://aicube.fun/tags/%E6%8A%80%E6%9C%AF" class="tag subtitle is-7 is-dark">技术</a>
+      
+      </div>
+    <div class="block">
+        
+        <p class="subtitle is-6 m-1">Previous Post: <a class="link" href="https://aicube.fun/post/20231203-06_05/">探索人工智能模型优化之路</a></p>
+        
+        
+    </div>
+</div>
+
+      </main>
+      <aside class="column is-one-fifth is-full-mobile">
+    
+    
+    <div class="block">
+        <div class="block"><a class="subtitle is-6" href="/author">Authors</a></div>
+        <div class="tags are-medium">
+            
+            <div class="tag is-black">
+                <a href="/author/frank">frank (57)</a>
+            </div>
+            
+            <div class="tag is-black">
+                <a href="/author/frank-lin">frank-lin (2)</a>
+            </div>
+            
+        </div>
+        
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-7398757278741889"
+        data-ad-slot="7456114770"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+        <div class="block"><a class="subtitle is-6" href="/tags">Tags</a></div>
+        <div class="tags are-medium">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/ai-tool">ai-tool (2)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/anthropic">anthropic (2)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/canva">canva (4)</a>
+                </span>
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/chatgpt">chatgpt (18)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/github">github (2)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/google-colab">google-colab (2)</a>
+                </span>
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/google-sheets">google-sheets (2)</a>
+                </span>
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/gpt">gpt (3)</a>
+                </span>
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/gpt-3">gpt-3 (5)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/gpt-engineer">gpt-engineer (3)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/indie-hacker">indie-hacker (2)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/openai">openai (2)</a>
+                </span>
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/openai-api">openai-api (6)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/python">python (3)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/repurpose.io">repurpose.io (2)</a>
+                </span>
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/roop">roop (2)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/stable-diffusion">stable-diffusion (5)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/twitter">twitter (4)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/zapier">zapier (3)</a>
+                </span>
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD">人工智能 (2)</a>
+                </span>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</aside>
+    </section>
+  </div>
+  <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      © 2023 Frank Lin
+    </p>
+  </div>
+</footer>
+</body>
+<script type="text/javascript">
+$(function() {
+  $('.modal-background, .modal-close').click(function() {
+    $('html').removeClass('is-clipped');
+    $(this).parent().removeClass('is-active');
+  });
+  $('.theme-switcher').change(function(e) {
+    if (e.target.value) {
+      window.location.href = '/bulmaswatch/' + e.target.value;
+    }
+  });
+
+  
+  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  
+  if ($navbarBurgers.length > 0) {
+
+    
+    $navbarBurgers.forEach(function ($el) {
+      $el.addEventListener('click', () => {
+
+        
+        var target = $el.dataset.target;
+        var $target = document.getElementById(target);
+
+        
+        $el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+});
+  </script>
+</html>
