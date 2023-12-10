@@ -12,10 +12,10 @@ taxonomies:
   author: 'author'
 params:
   catesytles:
-    Diffusion: is-warning
-    Flash: is-info
-    LLM: is-success
-    Agents: is-primary
+    ART: is-primary
+    INFO: is-success
+    FLASH: is-warning
+    INSIGHT: is-info
   adsensePubId: 7398757278741889
   adsenseUnitId: 7456114770
   social:
