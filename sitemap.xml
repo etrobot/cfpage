@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://aicube.fun/category/agents/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
-  </url><url>
     <loc>https://aicube.fun/</loc>
     <lastmod>2023-12-10T08:12:48+00:00</lastmod>
   </url><url>
@@ -15,6 +12,9 @@
     <lastmod>2023-12-10T08:12:48+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/author/frank-lin/</loc>
+    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/category/info/</loc>
     <lastmod>2023-12-10T08:12:48+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/post/</loc>
@@ -34,6 +34,9 @@
   </url><url>
     <loc>https://aicube.fun/tags/%E6%9C%80%E6%96%B0%E8%B5%84%E8%AE%AF/</loc>
     <lastmod>2023-12-10T08:12:48+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/category/flash/</loc>
+    <lastmod>2023-12-03T06:04:49+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/post/20231203-06_05/</loc>
     <lastmod>2023-12-03T06:04:49+00:00</lastmod>
