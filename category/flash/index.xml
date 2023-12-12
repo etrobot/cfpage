@@ -6,14 +6,68 @@
     <description>Recent content in FLASH on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Dec 2023 06:04:49 +0000</lastBuildDate><atom:link href="https://aicube.fun/category/flash/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Dec 2023 08:12:48 +0000</lastBuildDate><atom:link href="https://aicube.fun/category/flash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>人工智能最新资讯</title>
+      <link>https://aicube.fun/post/write-quant-code-with-chatgpt/</link>
+      <pubDate>Sun, 10 Dec 2023 08:12:48 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/write-quant-code-with-chatgpt/</guid>
+      <description>ChatGPT的最大的特点就是自然语言的联想以及翻译，这个翻译最不得了的就是能把自然语言翻译成程序语言，所以第一步是用自然语言提问，让ChatGPT用自然语言联想回答。如果答案合理，就可以让它写出代码，这次就让我来示例一下，如何让ChatGPT写出统计股票指标的代码。 第一步，用自然语言提问并让ChatGPT用自然语言回</description>
+    </item>
+    
     <item>
       <title>探索人工智能模型优化之路</title>
       <link>https://aicube.fun/post/20231203-06_05/</link>
       <pubDate>Sun, 03 Dec 2023 06:04:49 +0000</pubDate>
       
       <guid>https://aicube.fun/post/20231203-06_05/</guid>
-      <description>探索人工智能模型优化之路——Mistral 7B、OpenOrca GGUF与llama</description>
+      <description>探索人工智能模型优化之路——Mistral 7B、OpenOrca GGUF与llama.cpp 人工智能的迅猛发展向我们展示了它在各个领域的强大潜力。然而，在不断追求进步的背后，我们面临着一个重大挑战，即在减少能耗的同时提升模型对抗信息熵增的效率。今天，我将介绍几个前沿项目，并探讨它们是如何努力解决这个问题的。 关键项目介绍</description>
+    </item>
+    
+    <item>
+      <title>如何复刻妙鸭相机</title>
+      <link>https://aicube.fun/post/how-to-replicate-miaoya-camera/</link>
+      <pubDate>Sun, 06 Aug 2023 08:12:48 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/how-to-replicate-miaoya-camera/</guid>
+      <description>妙鸭是最近大火的AI写真应用，应该是借鉴了国外的photoai等产品，利用现有技术是可以复制的，以下是步骤： 步骤： 1、模型选择Stable Diffussion，目前最火的开源文生图项目。 2、调试一系列提示词用于生成各类模板的AI形象照，搭配controlnet扩展调整参数让生成相对稳定。 3、使用Roop扩展将用户上传的</description>
+    </item>
+    
+    <item>
+      <title>GPT量子速读股市资讯，分析师危</title>
+      <link>https://aicube.fun/post/gpt-speed-reading-stock-market-information/</link>
+      <pubDate>Sun, 28 May 2023 08:12:48 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/gpt-speed-reading-stock-market-information/</guid>
+      <description>转眼ChatGPT已经上线快半年，目前大模型已经进入稳定状态，业界更多是在卷应用了，而我也已在应用领域探索多时，认识可能比较全面。我认为，AI彻底颠覆了信息处理领域。 这应该是我写的最后一篇长文，AI时代长篇大论已经毫无意义，因为AI可以瞬间总结，特别是当我开发出基于ChatGPT的高速分析股市资讯后，我更加坚信AI就是</description>
+    </item>
+    
+    <item>
+      <title>无须训练即可让GPT-4克隆自我</title>
+      <link>https://aicube.fun/post/gpt-4-can-clone-itself-without-training/</link>
+      <pubDate>Sun, 09 Apr 2023 08:12:48 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/gpt-4-can-clone-itself-without-training/</guid>
+      <description>从ChatPDF开始，不少开发者都在致力于为ChatGPT配合自己的个性化知识库，成为能模仿自己的AI机器人，能聊天，能创作。这需要训练自己的向量数据库，现在openAI已经提供了基于他们的embedding API的插件叫ChatGPT Retrieval，这个API是收费的。在这个插件出现以前，开发者们也自己做了不少工</description>
+    </item>
+    
+    <item>
+      <title>让ChatGPT写出量化代码</title>
+      <link>https://aicube.fun/post/i-learned-ios-development-in-1-month-with-the-help-of-gpt/</link>
+      <pubDate>Sun, 12 Mar 2023 08:12:48 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/i-learned-ios-development-in-1-month-with-the-help-of-gpt/</guid>
+      <description>首先看下真机测试效果： 00:49 心得体会： 基本实现了一个月学会Swift和Go并做出一个iOS APP的目标!GPT帮大忙!作为一个产品(本科金融、硕士设计)、写代码完全是自学,如果没有GPT,相信需要多花十倍的时间! 思路是在实际的项目中去学习,因此给自己提需求,基本按照『找githubl类似项目-&amp;gt;GPT帮忙解读并改写-</description>
+    </item>
+    
+    <item>
+      <title>ChatGPT实现分析师思维</title>
+      <link>https://aicube.fun/post/chatgpt-make-you-think-like-an-analyst/</link>
+      <pubDate>Fri, 10 Mar 2023 08:12:48 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/chatgpt-make-you-think-like-an-analyst/</guid>
+      <description>今天分享能够加速使用ChatGPT解决问题的工具和流程，熟练掌握后能够高效分析几乎一切问题。简单来说，就是让ChatGPT能够无限扩展问答的层级。 工欲善其事，必先利其器，这里需要下载微软的vscode，当然我不是要让大家来编程，只是为了方便的使用它的两个插件，一个是ChatGPT插件（可以在设置选择浏览器登录或者使用A</description>
     </item>
     
   </channel>

@@ -13,7 +13,7 @@
       <pubDate>Sun, 10 Dec 2023 08:12:48 +0000</pubDate>
       
       <guid>https://aicube.fun/post/20231210-08_12/</guid>
-      <description>人工智能最新资讯 2023年12月9日 @llama_index 一种扩展RAG系统的强有力方式是允许查询结构化</description>
+      <description>人工智能最新资讯 2023年12月9日 @llama_index 一种扩展RAG系统的强有力方式是允许查询结构化和非结构化数据。不仅仅是做top-k，而是编写一个可以针对您的数据系统执行的DSL。 我们现在完全支持以下向量数据库的精确匹配和范围查询： @qdrant_engine @weaviate_io @trychroma @pinecone 我们还在postgres中有一个特殊案例，其中DSL可以直接提示LLM编写pgvector S</description>
     </item>
     
   </channel>

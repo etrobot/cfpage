@@ -71,35 +71,61 @@ if (!doNotTrack) {
     <section class="columns is-multiline">
       <main class="column is-three-quaters">
         
-    <div class="columns is-multiline is-full-mobile is-fullheight">
+<div class="block">
+  <div class="block">
+    <div class="media">
       
-        
-
-<div class="column is-half is-full-mobile">
-  <div class="card">
-    <div class="card-content is-dark">
-      <div class="media">
-        
-        <div class="media-content">
-          <div class="block">
-          <a class="title is-6" href="https://aicube.fun/author/frank-lin/">Frank Lin<a>
-            </div>
-          <p class="subtitle is-6">
-            <a href="/author/" class="button is-small is-dark"></a>
-            <a href="/category/" class="button is-small is-outlined "></a>
-            <span class="button is-small is-outlined">2023-12-10</span>
-          </p>
-        </div>
+      
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <a href="/author/frank-lin">
+            <img class="is-rounded" src="/avatar/frank-lin.jpg" alt="frank-lin">
+            <a>
+        </figure>
       </div>
-      
-      
-      
+      <div class="media-content">
+        <p class="block"><a class="title" href="https://aicube.fun/post/agi-the-next-phase-of-general-artificial-intelligence/">AGI通用人工智能的下一阶段<a></a></p>
+          <p class="subtitle is-6">
+            <a href="/author/frank-lin" class="button is-small is-dark">Frank Lin</a>
+            <a href="/category/insight" class="button is-small is-outlined is-info">INSIGHT</a>
+            <span class="button is-small is-outlined">0001-01-01</span>
+          </p>
+          </div>
     </div>
   </div>
-</div>
+    <article class="content">
+      <p>2022年的Large Language Modle呈现前所未有的超强理解能力和联想创作能力，让世界看到AGI的雏形。2023年科技行业巨头纷纷FOMO，发布自己的大模型，参数越来越大。而开源界则热衷于放出参数量较小的模型，给大模型加上各种能力的Agent以及钻研Prompt Engineering。</p>
+<p>由于Agent解决了大模型在计算、记忆和多模态的短板，未来AGI发展的核心依然是大模型，因此本文将论述大模型进一步提升的关键：数据的质量。</p>
+<p><strong>仅凭参数量够大并不能得到涌现</strong></p>
+<p>高质量的数据才能使模型具有更强的泛化能力，而过大的参数量并无法保证质量，且消耗过多的计算资源和训练时间。OpenAI能遥遥领先并不光是参数量够大，有人已经通过各种方式证明GPT-3.5的参数可能只有百亿级。</p>
+<p>实现 AGI 需要强大的硬件和计算能力，而短期内由于商业化的考虑，不会集中所有的算力资源来发展更强的GPT大模型，这也对应了OpenAI的山姆奥特曼近期承认的『没有训练GPT-5』一说。据此推断OpenAI只能倾斜算力资源提高数据质量，维持大幅领先优势。</p>
+<p><strong>GPT-4可以帮助提升数据质量</strong></p>
+<p>ShareGPT是由ChatGPT用户共享的聊天数据，已经被许多大模型作为训练数据源，同理通过 GPT-4叠加插件的能力，我们可以将原有的一些数据重新生成，比如搭配Wolfram 生成具有高度逻辑性和实用性的数据。这种数据以往都需要通过人工来进行生成或标注，现在借助GPT-4叠加插件的能力，可以更低成本和高效的数据集。</p>
+<p><strong>新的知识必须具有良好的内在逻辑</strong></p>
+<p>大模型有一个短板就是训练数据无法实时更新，只能分阶段重新训练。因此新知识必须具有较严密的逻辑结构，能够覆盖或淘汰部分旧数据，在保证语义理解能力的同时扩充新的知识。像大部分娱乐类的数据通常并没有太严密的逻辑，只是一些旧数据以随机方式组成并恰好得到人类的喜欢，因此并不需要涵盖在数据集中。</p>
+<p><strong>类 AutoGPT 项目将成为验证手段</strong></p>
+<p>AutoGPT 类项目除了集成Agent，还有着很强的Prompt模板来让生成的数据可以有效提取和循环使用，直到产生出新的知识组合，证明了Prompt Engineering还有巨大的潜力可以挖掘，这也是验证大模型解决实际问题能力的绝佳手段。</p>
+<p><strong>总结</strong></p>
+<p>由于短期内可以用于训练更强大AI的算力资源不足，且现有可训练数据的枯竭可能无法再得到进一步的智能涌现，数据质量将成为进一步提升的关键，相信未来几年不会再以参数量来标榜自家模型的强悍，而是以高能力叠加低成本来论高下。一点浅见，欢迎探讨。</p>
+
+    </article>
+    <p class="subtitle is-6">Tags:</p>
+    <div class="tags are-small">
+      
+        <a href="https://aicube.fun/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD" class="tag subtitle is-7 is-dark">人工智能</a>
+      
+        <a href="https://aicube.fun/tags/%E6%9C%80%E6%96%B0%E8%B5%84%E8%AE%AF" class="tag subtitle is-7 is-dark">最新资讯</a>
+      
+        <a href="https://aicube.fun/tags/%E6%8A%80%E6%9C%AF" class="tag subtitle is-7 is-dark">技术</a>
+      
+      </div>
+    <div class="block">
+        
+        
+        <p class="subtitle is-6 m-1">Next Post: <a class="link" href="https://aicube.fun/post/chatgpt-make-you-think-like-an-analyst/">ChatGPT实现分析师思维</a></p>
         
     </div>
-    
+</div>
 
       </main>
       <aside class="column is-one-fifth is-full-mobile">
