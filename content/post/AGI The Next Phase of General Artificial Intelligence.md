@@ -1,6 +1,6 @@
 ---
 title: "AGI通用人工智能的下一阶段"
-date: 2023-4-23T08:12:48
+date: 2023-04-23T00:00:00
 tags: ['人工智能', '最新资讯', '技术']
 author: Frank Lin
 category: INSIGHT

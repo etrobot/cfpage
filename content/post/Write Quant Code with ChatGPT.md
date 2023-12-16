@@ -1,7 +1,7 @@
 ---
-title: "人工智能最新资讯"
+title: "让ChatGPT写出量化代码"
 date: 2023-12-10T08:12:48
-tags: ['人工智能', '最新资讯', '技术']
+tags: ['ChatGPT', '提示工程', '炒股']
 author: Frank Lin
 category: FLASH
 ---

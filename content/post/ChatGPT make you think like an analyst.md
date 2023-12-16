@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT实现分析师思维"
 date: 2023-03-10T08:12:48
-tags: ['人工智能', '最新资讯', '技术']
+tags: ['ChatGPT', '提示工程', '炒股']
 author: Frank Lin
 category: FLASH
 ---
