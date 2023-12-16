@@ -1,7 +1,7 @@
 ---
-title: "让ChatGPT写出量化代码"
+title: "一个月学会Swift和Go并做出一个iOS APP"
 date: 2023-03-12T08:12:48
-tags: ['人工智能', '最新资讯', '技术']
+tags: ['ChatGPT', '提示工程', '炒股']
 author: Frank Lin
 category: FLASH
 ---
