@@ -5,11 +5,12 @@
     <link>https://aicube.fun/category/insight/</link>
     <description>Recent content in INSIGHT on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://aicube.fun/category/insight/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aicube.fun/category/insight/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AGI通用人工智能的下一阶段</title>
       <link>https://aicube.fun/post/agi-the-next-phase-of-general-artificial-intelligence/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://aicube.fun/post/agi-the-next-phase-of-general-artificial-intelligence/</guid>
       <description>2022年的Large Language Modle呈现前所未有的超强理解能力和联想创作能力，让世界看到AGI的雏形。2023年科技行业巨头纷纷FOMO，发布自己的大模型，参数越来越大。而开源界则热衷于放出参数量较小的模型，给大模型加上各种能力的Agent以及钻研Prompt Engineering。 由于Agent解决了大模型在计算、记忆</description>

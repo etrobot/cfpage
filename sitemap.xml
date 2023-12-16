@@ -3,27 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://aicube.fun/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/author/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/category/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/category/flash/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/author/frank-lin/</loc>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/tags/gpt-4/</loc>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/post/</loc>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/tags/</loc>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/tags/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8/</loc>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/post/coze_instruction/</loc>
+    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/post/gpt_and_github_actions/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/tags/chatgpt/</loc>
     <lastmod>2023-12-10T08:12:48+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/category/info/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/</loc>
     <lastmod>2023-12-10T08:12:48+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
@@ -32,13 +47,19 @@
     <loc>https://aicube.fun/post/20231210-08_12/</loc>
     <lastmod>2023-12-10T08:12:48+00:00</lastmod>
   </url><url>
-    <loc>https://aicube.fun/post/write-quant-code-with-chatgpt/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
-  </url><url>
     <loc>https://aicube.fun/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2023-12-10T08:12:48+00:00</lastmod>
   </url><url>
+    <loc>https://aicube.fun/tags/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/</loc>
+    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
+  </url><url>
     <loc>https://aicube.fun/tags/%E6%9C%80%E6%96%B0%E8%B5%84%E8%AE%AF/</loc>
+    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/tags/%E7%82%92%E8%82%A1/</loc>
+    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/post/write-quant-code-with-chatgpt/</loc>
     <lastmod>2023-12-10T08:12:48+00:00</lastmod>
   </url><url>
     <loc>https://aicube.fun/post/20231203-06_05/</loc>
@@ -59,6 +80,12 @@
     <loc>https://aicube.fun/post/gpt-speed-reading-stock-market-information/</loc>
     <lastmod>2023-05-28T08:12:48+00:00</lastmod>
   </url><url>
+    <loc>https://aicube.fun/post/agi-the-next-phase-of-general-artificial-intelligence/</loc>
+    <lastmod>2023-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aicube.fun/category/insight/</loc>
+    <lastmod>2023-04-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://aicube.fun/post/gpt-4-can-clone-itself-without-training/</loc>
     <lastmod>2023-04-09T08:12:48+00:00</lastmod>
   </url><url>
@@ -67,10 +94,6 @@
   </url><url>
     <loc>https://aicube.fun/post/chatgpt-make-you-think-like-an-analyst/</loc>
     <lastmod>2023-03-10T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/agi-the-next-phase-of-general-artificial-intelligence/</loc>
-  </url><url>
-    <loc>https://aicube.fun/category/insight/</loc>
   </url><url>
     <loc>https://aicube.fun/social/</loc>
   </url>

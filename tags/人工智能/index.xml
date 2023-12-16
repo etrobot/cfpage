@@ -17,15 +17,6 @@
     </item>
     
     <item>
-      <title>人工智能最新资讯</title>
-      <link>https://aicube.fun/post/write-quant-code-with-chatgpt/</link>
-      <pubDate>Sun, 10 Dec 2023 08:12:48 +0000</pubDate>
-      
-      <guid>https://aicube.fun/post/write-quant-code-with-chatgpt/</guid>
-      <description>ChatGPT的最大的特点就是自然语言的联想以及翻译，这个翻译最不得了的就是能把自然语言翻译成程序语言，所以第一步是用自然语言提问，让ChatGPT用自然语言联想回答。如果答案合理，就可以让它写出代码，这次就让我来示例一下，如何让ChatGPT写出统计股票指标的代码。 第一步，用自然语言提问并让ChatGPT用自然语言回</description>
-    </item>
-    
-    <item>
       <title>探索人工智能模型优化之路</title>
       <link>https://aicube.fun/post/20231203-06_05/</link>
       <pubDate>Sun, 03 Dec 2023 06:04:49 +0000</pubDate>
@@ -53,6 +44,15 @@
     </item>
     
     <item>
+      <title>AGI通用人工智能的下一阶段</title>
+      <link>https://aicube.fun/post/agi-the-next-phase-of-general-artificial-intelligence/</link>
+      <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/agi-the-next-phase-of-general-artificial-intelligence/</guid>
+      <description>2022年的Large Language Modle呈现前所未有的超强理解能力和联想创作能力，让世界看到AGI的雏形。2023年科技行业巨头纷纷FOMO，发布自己的大模型，参数越来越大。而开源界则热衷于放出参数量较小的模型，给大模型加上各种能力的Agent以及钻研Prompt Engineering。 由于Agent解决了大模型在计算、记忆</description>
+    </item>
+    
+    <item>
       <title>无须训练即可让GPT-4克隆自我</title>
       <link>https://aicube.fun/post/gpt-4-can-clone-itself-without-training/</link>
       <pubDate>Sun, 09 Apr 2023 08:12:48 +0000</pubDate>
@@ -68,24 +68,6 @@
       
       <guid>https://aicube.fun/post/i-learned-ios-development-in-1-month-with-the-help-of-gpt/</guid>
       <description>首先看下真机测试效果： 00:49 心得体会： 基本实现了一个月学会Swift和Go并做出一个iOS APP的目标!GPT帮大忙!作为一个产品(本科金融、硕士设计)、写代码完全是自学,如果没有GPT,相信需要多花十倍的时间! 思路是在实际的项目中去学习,因此给自己提需求,基本按照『找githubl类似项目-&amp;gt;GPT帮忙解读并改写-</description>
-    </item>
-    
-    <item>
-      <title>ChatGPT实现分析师思维</title>
-      <link>https://aicube.fun/post/chatgpt-make-you-think-like-an-analyst/</link>
-      <pubDate>Fri, 10 Mar 2023 08:12:48 +0000</pubDate>
-      
-      <guid>https://aicube.fun/post/chatgpt-make-you-think-like-an-analyst/</guid>
-      <description>今天分享能够加速使用ChatGPT解决问题的工具和流程，熟练掌握后能够高效分析几乎一切问题。简单来说，就是让ChatGPT能够无限扩展问答的层级。 工欲善其事，必先利其器，这里需要下载微软的vscode，当然我不是要让大家来编程，只是为了方便的使用它的两个插件，一个是ChatGPT插件（可以在设置选择浏览器登录或者使用A</description>
-    </item>
-    
-    <item>
-      <title>AGI通用人工智能的下一阶段</title>
-      <link>https://aicube.fun/post/agi-the-next-phase-of-general-artificial-intelligence/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://aicube.fun/post/agi-the-next-phase-of-general-artificial-intelligence/</guid>
-      <description>2022年的Large Language Modle呈现前所未有的超强理解能力和联想创作能力，让世界看到AGI的雏形。2023年科技行业巨头纷纷FOMO，发布自己的大模型，参数越来越大。而开源界则热衷于放出参数量较小的模型，给大模型加上各种能力的Agent以及钻研Prompt Engineering。 由于Agent解决了大模型在计算、记忆</description>
     </item>
     
   </channel>

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+
+<head>
+  <title>
+    AICube.FUN
+</title>
+<meta name="viewport" content="width=device-width">
+<meta name="title" content="Aicube.fun">
+<meta name="description" content="AICube.fun collects user cases of AI tools such as ChatGPT,Midjouney,Stable Diffusion,Claude,LLAMA...">
+<meta name="keywords" content=" Monetization,ChatGPT,Midjouney,Stable Diffusion,Claude,LLAMA,AI,Twitter,Instagram,Threads,Youtube,Github">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<link rel="stylesheet" href="https://unpkg.com/bulmaswatch/superhero/bulmaswatch.min.css">
+<link href="https://unpkg.com/@fortawesome/fontawesome-free@5.13.0/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<script src="https://cdn.bootcdn.net/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+<title>
+  AICube.FUN
+  </title>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7398757278741889"
+  crossorigin="anonymous"></script>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D6W5L8YCC4"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-D6W5L8YCC4', { 'anonymize_ip': false });
+}
+</script>
+
+</head>
+
+<body class="theme-body">
+  <nav class="navbar is-dark is-fixed-top">
+  <div class="container">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <img src="/logo.png" width="112" height="28">
+    </a>
+    <a class="navbar-item" href="https://github.com/etrobot/hugo-theme-financlub" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+    <a class="navbar-item" href="https://twitter.com/etrobot" target="_blank">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <span class="navbar-burger burger" data-target="navbarMenuHero1">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </div>
+  <div id="navbarMenuHero1" class="navbar-menu">
+  <div class="navbar-end">
+  
+      <a class="navbar-item" href="/category/flash">flash</a>
+  
+      <a class="navbar-item" href="/category/info">info</a>
+  
+      <a class="navbar-item" href="/category/insight">insight</a>
+  
+</div>
+</div>
+</div>
+</nav>
+  <div class="container theme-padding-mobile">
+    <section class="columns is-multiline">
+      <main class="column is-three-quaters">
+        
+<div class="block">
+  <div class="block">
+    <div class="media">
+      
+      
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <a href="/author/frank-lin">
+            <img class="is-rounded" src="/avatar/frank-lin.jpg" alt="frank-lin">
+            <a>
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="block"><a class="title" href="https://aicube.fun/post/gpt_and_github_actions/">如何免费创建7x24资讯秘书<a></a></p>
+          <p class="subtitle is-6">
+            <a href="/author/frank-lin" class="button is-small is-dark">Frank Lin</a>
+            <a href="/category/flash" class="button is-small is-outlined is-warning">FLASH</a>
+            <span class="button is-small is-outlined">2023-12-14</span>
+          </p>
+          </div>
+    </div>
+  </div>
+    <article class="content">
+      <p>相信大家都发现了，AI时代成为创作者的捷径就是汇(ban)编(yun)优秀的推文，推上也有不少人靠制作某个话题的推文组合收获很多粉丝，不需要才华，只要靠勤奋高效即可。</p>
+<p>工欲善其事，必先利其器，今天就为爱发电，把我的Python脚本“自动抓取指定推特列表或帐号最新X分钟内并用GPT筛选发邮件”分享出来，并附上手把手教程，非技术专业人员（我也不是）都能轻松跑起来：</p>
+<h2 id="克隆分支">克隆分支</h2>
+<p>注册GitHub帐号，打开<a href="https://github.com/etrobot/sumTweets/">github.com</a> 点击folk即可克隆我的项目到你的账号，然后新建环境叫sumTweetsCron(<code>注意一定要完全一致包括大小写</code>)</p>
+<h2 id="设置环境变量">设置环境变量</h2>
+<p>在settings里面加入三个secret,分别是OPENAI_API_KEY，MAILPWD，MAILTO，以及六个Environment Vars，分别是MAIL，SMTP，NITTER，MINS，TARGET，INFO，具体含义见下图:</p>
+<p><img src="https://cdnv2.ruguoapp.com/FtnKjnzNEF2gYJ_GuhmZ9D-M5fvhv3.png?imageMogr2/auto-orient/thumbnail/1500x2000%3E" alt="创建密码">
+<img src="https://cdnv2.ruguoapp.com/Fnid7LnjAWSbgyuwsEQ-hevnZDNGv3.png?imageMogr2/auto-orient/thumbnail/1500x2000%3E" alt="创建自定义参数变量"></p>
+<h2 id="定时任务">定时任务</h2>
+<p>填完后在Action创建工作流：</p>
+<p><img src="https://cdnv2.ruguoapp.com/Fg2MGRPKsN9Be5iDzMiDS2qz-QR3v3.png?imageMogr2/auto-orient/thumbnail/1500x2000%3E" alt=""></p>
+<p>复制以main.yml的内容:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#ae81ff">Main Workflow</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">on</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">schedule</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">cron</span>: <span style="color:#e6db74">&#39;*/20 * * * *&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">jobs</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">build</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">runs-on</span>: <span style="color:#ae81ff">ubuntu-latest</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">environment</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#ae81ff">sumTweetsCron</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">steps</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Checkout code</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/checkout@v2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Set up Python</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/setup-python@v2</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">python-version</span>: <span style="color:#ae81ff">3.</span><span style="color:#ae81ff">x</span>
+</span></span><span style="display:flex;"><span>          
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Cache dependencies</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/cache@v2</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">path</span>: <span style="color:#ae81ff">~/.cache/pip</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">key</span>: <span style="color:#ae81ff">${{ runner.os }}-pip-${{ hashFiles(&#39;**/requirements.txt&#39;) }}</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">restore-keys</span>: |<span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            ${{ runner.os }}-pip-</span>            
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Install dependencies</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">run</span>: |<span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          python -m pip install --upgrade pip
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          pip install -r requirements.txt</span>          
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Run main.py</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">env</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">OPENAI_API_KEY</span>: <span style="color:#ae81ff">${{ secrets.OPENAI_API_KEY }}</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">API_BASE_URL</span>: <span style="color:#ae81ff">${{ vars.API_BASE_URL }}</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">MAILTO</span>: <span style="color:#ae81ff">${{ secrets.MAILTO }}</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">MAIL</span>: <span style="color:#ae81ff">${{ vars.MAIL }}</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">SMTP</span>: <span style="color:#ae81ff">${{ vars.SMTP }}</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">MAILPWD</span>: <span style="color:#ae81ff">${{ secrets.MAILPWD }}</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">NITTER</span>: <span style="color:#ae81ff">${{ vars.NITTER }}</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">MINS</span>: <span style="color:#ae81ff">${{ vars.MINS }}</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">TARGET</span>: <span style="color:#ae81ff">${{ vars.TARGET }}</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">INFO</span>: <span style="color:#ae81ff">${{ vars.INFO }}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">run</span>: <span style="color:#ae81ff">python main.py</span>
+</span></span></code></pre></div><p><img src="https://cdnv2.ruguoapp.com/FtSNbK7Gxoq-tyMuhEay4MV7Sn7jv3.png?imageMogr2/auto-orient/thumbnail/1500x2000%3E" alt=""></p>
+<p>你可以选择各式各样的主题，比如电动车、奢侈品……账号和列表靠自己筛选，在环境变量里面修改target和info即可~ 希望大家能借助这个Python脚本成为各个细分领域的大（juan）咖（wang）!</p>
+
+    </article>
+    <p class="subtitle is-6">Tags:</p>
+    <div class="tags are-small">
+      
+        <a href="https://aicube.fun/tags/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8" class="tag subtitle is-7 is-dark">字节跳动</a>
+      
+        <a href="https://aicube.fun/tags/gpt-4" class="tag subtitle is-7 is-dark">GPT-4</a>
+      
+      </div>
+    <div class="block">
+        
+        <p class="subtitle is-6 m-1">Previous Post: <a class="link" href="https://aicube.fun/post/20231210-08_12/">人工智能最新资讯</a></p>
+        
+        
+        <p class="subtitle is-6 m-1">Next Post: <a class="link" href="https://aicube.fun/post/coze_instruction/">快速玩转字节的Coze机器人创建平台</a></p>
+        
+    </div>
+</div>
+
+      </main>
+      <aside class="column is-one-fifth is-full-mobile">
+    
+    
+    <div class="block">
+        <div class="block"><a class="subtitle is-6" href="/author">Authors</a></div>
+        <div class="tags are-medium">
+            
+            <div class="tag is-black">
+                <a href="/author/frank-lin">frank-lin (11)</a>
+            </div>
+            
+        </div>
+        
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-7398757278741889"
+        data-ad-slot="7456114770"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+        <div class="block"><a class="subtitle is-6" href="/tags">Tags</a></div>
+        <div class="tags are-medium">
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/chatgpt">chatgpt (2)</a>
+                </span>
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/gpt-4">gpt-4 (2)</a>
+                </span>
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD">人工智能 (7)</a>
+                </span>
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8">字节跳动 (2)</a>
+                </span>
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/%E6%8A%80%E6%9C%AF">技术 (6)</a>
+                </span>
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B">提示工程 (2)</a>
+                </span>
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/%E6%9C%80%E6%96%B0%E8%B5%84%E8%AE%AF">最新资讯 (6)</a>
+                </span>
+            
+            
+            
+            
+            
+                <span class="tag is-black">
+                    <a href="/tags/%E7%82%92%E8%82%A1">炒股 (2)</a>
+                </span>
+            
+            
+            
+            
+        </div>
+    </div>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</aside>
+    </section>
+  </div>
+  <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      © 2023 Frank Lin
+    </p>
+  </div>
+</footer>
+</body>
+<script type="text/javascript">
+$(function() {
+  $('.modal-background, .modal-close').click(function() {
+    $('html').removeClass('is-clipped');
+    $(this).parent().removeClass('is-active');
+  });
+  $('.theme-switcher').change(function(e) {
+    if (e.target.value) {
+      window.location.href = '/bulmaswatch/' + e.target.value;
+    }
+  });
+
+  
+  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  
+  if ($navbarBurgers.length > 0) {
+
+    
+    $navbarBurgers.forEach(function ($el) {
+      $el.addEventListener('click', () => {
+
+        
+        var target = $el.dataset.target;
+        var $target = document.getElementById(target);
+
+        
+        $el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+});
+  </script>
+</html>
