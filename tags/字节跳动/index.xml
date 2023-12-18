@@ -6,7 +6,16 @@
     <description>Recent content in 字节跳动 on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>字节Coze平台workflow抓取推文教程</title>
+      <link>https://aicube.fun/post/coze-workflow-tutor/</link>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://aicube.fun/post/coze-workflow-tutor/</guid>
+      <description>字节Coze的workflow非常灵活，可以结合搜索、浏览、代码片段、GPT-3.5/4/4V等组件实现很多复杂的逻辑。本文是实现的是GPT自行筛选推特AI资讯获取，具体步骤： **1、配置start卡片，设变量名：**TwitterUserOrListID require我关掉了，因为下一步我会用代码自动判断是否有参数，</description>
+    </item>
+    
     <item>
       <title>快速玩转字节的Coze机器人创建平台</title>
       <link>https://aicube.fun/post/coze_instruction/</link>

@@ -84,45 +84,60 @@ if (!doNotTrack) {
         </figure>
       </div>
       <div class="media-content">
-        <p class="block"><a class="title" href="https://aicube.fun/post/gpt-speed-reading-stock-market-information/">GPT量子速读股市资讯，分析师危<a></a></p>
+        <p class="block"><a class="title" href="https://aicube.fun/post/coze-workflow-tutor/">字节Coze平台workflow抓取推文教程<a></a></p>
           <p class="subtitle is-6">
             <a href="/author/frank-lin" class="button is-small is-dark">Frank Lin</a>
             <a href="/category/flash" class="button is-small is-outlined is-warning">FLASH</a>
-            <span class="button is-small is-outlined">2023-05-28</span>
+            <span class="button is-small is-outlined">2023-12-17</span>
           </p>
           </div>
     </div>
   </div>
     <article class="content">
-      <p>转眼ChatGPT已经上线快半年，目前大模型已经进入稳定状态，业界更多是在卷应用了，而我也已在应用领域探索多时，认识可能比较全面。我认为，AI彻底颠覆了信息处理领域。</p>
-<p>这应该是我写的最后一篇长文，AI时代长篇大论已经毫无意义，因为AI可以瞬间总结，特别是当我开发出基于ChatGPT的高速分析股市资讯后，我更加坚信AI就是信息梳理之王：</p>
-<p><img src="https://pic3.zhimg.com/v2-ef6470340f0ccd28b6f0b742be043bb6_b.jpg" alt=""></p>
-<p>这里展示的是用ChatGPT快速分析美股资讯后生成的报告，十几秒就能完成一个美股的英文资讯阅读分析，同时流畅输出中文结论，这样高效处理非结构性信息的能力，已经比大多数人要强。而且这只是一个稚嫩的初版。</p>
-<p>这个程序和财经巨头Bloomberg开发的BloomGPT有什么不同呢？简单解释一下，BloomGPT是用专门的财经数据训练的大模型，而我的应用是请ChatGPT这个通才来客串财经评论员。</p>
-<p>可能大部分人会认为BloomGPT更专业，效果更好，而我认为不一定ChatGPT就会差。财经是现实世界在资本市场的投影，而ChatGPT的知识是融汇贯通的，在更广阔的知识储备去联想并分析财经资讯，可能更容易发现新的机会。</p>
-<p>后续我会从两个方面可以提升这个GPT诊股程序的是水平，一个方面是启用GPT-4，这一版我只用了3.5，还不够强，一次能接收的信息也有限，另一个方面还是信息源，目前我只是爬了雅虎的公开资讯，如果换成付费资讯和数据，应该又能有一个大幅的提升。</p>
-<p>想想大模型已学会了人类的全部知识，用来分析股市资讯其实是小菜一碟，我应该放心地把投资这件事交给它，让自己解放，而不是继续疲惫的追赶新的AI应用，这也才应该是AI诞生的意义：让人类生活的更好。</p>
-<p>由此可见，财经大模型日后会成为财经媒体标配，无法跟上潮流的，恐怕会成为历史。因此搭配财经GPT机器人是大势所趋。在此放出这个初代GPT解读股市资讯的程序源码：</p>
-<p>可以结合我之前的让ChatGPT写量化代码的文章来打造AI交易系统:</p>
-<p>后续的迭代就不会放出来了，策略的公开意味着失效，有兴趣的朋友可以联系探讨。我也期待它能进化成我的财富管家</p>
+      <p><img src="https://mmbiz.qpic.cn/mmbiz_png/8d8ZEW9VW7YPuOibAcbj6xhD9kPAhIYEauSB9SyQaibA75D0vOicUOiaAn8VYHF5HP4nKAOJYJBN14YThhcz6WbeUw/640?wx_fmt=png&amp;from=appmsg&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<p>字节Coze的workflow非常灵活，可以结合搜索、浏览、代码片段、GPT-3.5/4/4V等组件实现很多复杂的逻辑。本文是实现的是GPT自行筛选推特AI资讯获取，具体步骤：</p>
+<p>**1、配置start卡片，设变量名：**TwitterUserOrListID</p>
+<p>require我关掉了，因为下一步我会用代码自动判断是否有参数，否则使用默认参数。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/8d8ZEW9VW7YPuOibAcbj6xhD9kPAhIYEaag6aNly672Sz3oQB4GSE7rqNQLEibfNpib7fHxuG6AebsGGDmbeick8Cw/640?wx_fmt=png&amp;from=appmsg&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<p><strong>2、处理用户输入目标推特账号或列表，没有则使用默认的列表ID</strong></p>
+<p><strong>『/i/status/1733672915130847419』</strong></p>
+<p>通过侧边栏（默认是Basic nodes）插入一个Code卡片,代码输入：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">async</span>({<span style="color:#a6e22e">params</span>})=&gt;{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ret</span><span style="color:#f92672">=</span>{
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;key0&#34;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;https://nitter.io.lol/&#34;</span><span style="color:#f92672">+</span>(<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">input</span><span style="color:#f92672">==</span><span style="color:#e6db74">&#39;&#39;</span><span style="color:#f92672">?</span><span style="color:#e6db74">&#39;i/lists/1733652180576686386&#39;</span><span style="color:#f92672">:</span><span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">input</span>.<span style="color:#a6e22e">replace</span>(<span style="color:#e6db74">&#39;@&#39;</span>,<span style="color:#e6db74">&#39;&#39;</span>))<span style="color:#f92672">+</span><span style="color:#e6db74">&#39;/rss&#39;</span>
+</span></span><span style="display:flex;"><span> }
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">return</span> <span style="color:#a6e22e">ret</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Output选择key0，也就是代码里面的输出字段名称，然后拖动Start卡片右侧小蓝点连线上来，这样input栏就可以选择Start卡片传过来的url参数了：</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/8d8ZEW9VW7YPuOibAcbj6xhD9kPAhIYEaFpZdSPCzicRzm7dnVS8Sw9BLVKTHfe2XM5cibMMQK7s7PFD7JVAvjyPQ/640?wx_fmt=png&amp;from=appmsg&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<p><strong>3、使用浏览插件进行账号或列表的推文抓取</strong></p>
+<p>左侧边栏点击Tools,加入一个browser卡片，选择raw(可以返回详细内容)，再将上一步的code卡片连上来，输入就可以选择code卡片的key0参数了：</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/8d8ZEW9VW7YPuOibAcbj6xhD9kPAhIYEaELySftGfkvcFffqF69ZxhpkribyEceC2TQaZejpRND1AEE9HQYBjIcA/640?wx_fmt=png&amp;from=appmsg&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<p><strong>4、使用Gpt-3.5-turbo 筛选推文</strong></p>
+<p>左侧导航栏再切换回Basic nodes，点击LLM插入一个LLM卡片，将它与上一步的浏览器卡片和最后一步的End卡片连接，输入选择上一个卡片的参数，注意Prompt要加入花括号引用input参数名{{twitter_rss}}，最后End卡片的输出选择Return Variable即可：</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/8d8ZEW9VW7YPuOibAcbj6xhD9kPAhIYEak3k7vUI0Ak7U0FOlfKQLMPuOLHHCxGTyaptENc7VKL9gNB2r93VSag/640?wx_fmt=png&amp;from=appmsg&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<p>『{{twitter_rss}}』以上是一些推文，你是一名专栏『AI/人工智能最新资讯』的资深作者，请在以上推文中，挑选出和『AI/RAG/人工智能』相关信息的推,汇编成一篇用markdown排版的文章，包含发推时间、作者、推特链接和推特内容以及你的解读和评论。如果推文中没有『AI/RAG/人工智能』相关信息则回复『暂未找到最新AI资讯』</p>
+<p><strong>5、测试发布</strong></p>
+<p>点击右上方Test run,这时开始测试运行，每个卡片右上角可以查看结果，如果没有问题就点击Publish即可，然后就可以在创建bot的时候引用啦：</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/8d8ZEW9VW7YPuOibAcbj6xhD9kPAhIYEayaibrHKibiapVIKibiabppGklfVnt8x26LYSzPia5wPDfJ4AbCPYluD3ib9iaA/640?wx_fmt=png&amp;from=appmsg&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<p>附上主要步骤全景截图：</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/8d8ZEW9VW7YPuOibAcbj6xhD9kPAhIYEaxX3CZUJZSl7bYe9hOu8BH4Yl2LIm4o2Y7BlaNMHE2d6pN4y8KfiafFA/640?wx_fmt=png&amp;from=appmsg&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<p><strong>总结</strong></p>
+<p>workflow的就是将一个个的数据处理单元连接起来，所以只要仔细检查好参数的传递逻辑，就能流畅运行，这里面当然有很多技巧，是需要经验的，所以对有编程基础的人来说更容易上手，如果想玩好workflow，建议还是学习一下编程基础知识，比如Python，最好实战一点爬虫项目，才能更好的理解数据流动和处理的方方面面。</p>
 
     </article>
     <p class="subtitle is-6">Tags:</p>
     <div class="tags are-small">
       
-        <a href="https://aicube.fun/tags/chatgpt" class="tag subtitle is-7 is-dark">ChatGPT</a>
+        <a href="https://aicube.fun/tags/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8" class="tag subtitle is-7 is-dark">字节跳动</a>
       
-        <a href="https://aicube.fun/tags/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B" class="tag subtitle is-7 is-dark">提示工程</a>
-      
-        <a href="https://aicube.fun/tags/%E7%82%92%E8%82%A1" class="tag subtitle is-7 is-dark">炒股</a>
+        <a href="https://aicube.fun/tags/gpt-4" class="tag subtitle is-7 is-dark">GPT-4</a>
       
       </div>
     <div class="block">
         
-        <p class="subtitle is-6 m-1">Previous Post: <a class="link" href="https://aicube.fun/post/agi-the-next-phase-of-general-artificial-intelligence/">AGI通用人工智能的下一阶段</a></p>
+        <p class="subtitle is-6 m-1">Previous Post: <a class="link" href="https://aicube.fun/post/coze_instruction/">快速玩转字节的Coze机器人创建平台</a></p>
         
-        
-        <p class="subtitle is-6 m-1">Next Post: <a class="link" href="https://aicube.fun/post/how-to-replicate-miaoya-camera/">如何复刻妙鸭相机</a></p>
         
     </div>
 </div>
