@@ -24,7 +24,3 @@ height: 100%;
 .pagination {
     justify-content: space-between;
 }
-
-code[data-lang=text] {
-  text-wrap: wrap;
-}
