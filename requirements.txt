@@ -1,0 +1,7 @@
+beautifulsoup4
+Python-dotenv
+markdownify
+feedparser
+requests
+litellm
+pandas
