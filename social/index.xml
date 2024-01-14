@@ -5,6 +5,7 @@
     <link>https://aicube.fun/social/</link>
     <description>Recent content in Social on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://aicube.fun/social/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://aicube.fun/social/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

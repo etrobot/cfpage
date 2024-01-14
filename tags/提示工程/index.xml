@@ -6,24 +6,35 @@
     <description>Recent content in 提示工程 on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Dec 2023 08:12:48 +0000</lastBuildDate><atom:link href="https://aicube.fun/tags/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Dec 2023 08:12:48 +0000</lastBuildDate>
+    <atom:link href="https://aicube.fun/tags/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>让ChatGPT写出量化代码</title>
       <link>https://aicube.fun/post/write-quant-code-with-chatgpt/</link>
       <pubDate>Sun, 10 Dec 2023 08:12:48 +0000</pubDate>
-      
       <guid>https://aicube.fun/post/write-quant-code-with-chatgpt/</guid>
       <description>ChatGPT的最大的特点就是自然语言的联想以及翻译，这个翻译最不得了的就是能把自然语言翻译成程序语言，所以第一步是用自然语言提问，让ChatGPT用自然语言联想回答。如果答案合理，就可以让它写出代码，这次就让我来示例一下，如何让ChatGPT写出统计股票指标的代码。 第一步，用自然语言提问并让ChatGPT用自然语言回</description>
     </item>
-    
+    <item>
+      <title>GPT量子速读股市资讯，分析师危</title>
+      <link>https://aicube.fun/post/gpt-speed-reading-stock-market-information/</link>
+      <pubDate>Sun, 28 May 2023 08:12:48 +0000</pubDate>
+      <guid>https://aicube.fun/post/gpt-speed-reading-stock-market-information/</guid>
+      <description>转眼ChatGPT已经上线快半年，目前大模型已经进入稳定状态，业界更多是在卷应用了，而我也已在应用领域探索多时，认识可能比较全面。我认为，AI彻底颠覆了信息处理领域。 这应该是我写的最后一篇长文，AI时代长篇大论已经毫无意义，因为AI可以瞬间总结，特别是当我开发出基于ChatGPT的高速分析股市资讯后，我更加坚信AI就是</description>
+    </item>
+    <item>
+      <title>一个月学会Swift和Go并做出一个iOS APP</title>
+      <link>https://aicube.fun/post/i-learned-ios-development-in-1-month-with-the-help-of-gpt/</link>
+      <pubDate>Sun, 12 Mar 2023 08:12:48 +0000</pubDate>
+      <guid>https://aicube.fun/post/i-learned-ios-development-in-1-month-with-the-help-of-gpt/</guid>
+      <description>首先看下真机测试效果： 00:49 心得体会： 基本实现了一个月学会Swift和Go并做出一个iOS APP的目标!GPT帮大忙!作为一个产品(本科金融、硕士设计)、写代码完全是自学,如果没有GPT,相信需要多花十倍的时间! 思路是在实际的项目中去学习,因此给自己提需求,基本按照『找githubl类似项目-&amp;gt;GPT帮忙解读并改写-</description>
+    </item>
     <item>
       <title>ChatGPT实现分析师思维</title>
       <link>https://aicube.fun/post/chatgpt-make-you-think-like-an-analyst/</link>
       <pubDate>Fri, 10 Mar 2023 08:12:48 +0000</pubDate>
-      
       <guid>https://aicube.fun/post/chatgpt-make-you-think-like-an-analyst/</guid>
       <description>今天分享能够加速使用ChatGPT解决问题的工具和流程，熟练掌握后能够高效分析几乎一切问题。简单来说，就是让ChatGPT能够无限扩展问答的层级。 工欲善其事，必先利其器，这里需要下载微软的vscode，当然我不是要让大家来编程，只是为了方便的使用它的两个插件，一个是ChatGPT插件（可以在设置选择浏览器登录或者使用A</description>
     </item>
-    
   </channel>
 </rss>

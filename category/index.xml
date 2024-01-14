@@ -6,33 +6,28 @@
     <description>Recent content in Category on AICube.FUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aicube.fun/category/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://aicube.fun/category/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FLASH</title>
       <link>https://aicube.fun/category/flash/</link>
       <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://aicube.fun/category/flash/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>INFO</title>
       <link>https://aicube.fun/category/info/</link>
       <pubDate>Sun, 10 Dec 2023 08:12:48 +0000</pubDate>
-      
       <guid>https://aicube.fun/category/info/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>INSIGHT</title>
       <link>https://aicube.fun/category/insight/</link>
       <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://aicube.fun/category/insight/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
