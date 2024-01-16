@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <div class="columns is-multiline is-full-mobile is-fullheight">
+    <div class="flex flex-wrap m-2">
       {{ range (.Paginate .Pages).Pages }}
         {{ .Render "summary" }}
         {{ end }}

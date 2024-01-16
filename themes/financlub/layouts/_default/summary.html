@@ -1,8 +1,8 @@
 {{$authorName:= .Params.author | urlize }}
 {{$categoryName:= .Params.category | urlize }}
-<div class="column is-half is-full-mobile">
+<div class="card flex flex-col rounded-xl my-1 p-4 bg-gray-500 bg-opacity-5 mx-1">
   <div class="card">
-    <div class="card-content is-dark">
+    <div class="card-content">
       <div class="media">
         {{if $authorName}}
         <div class="media-left">
