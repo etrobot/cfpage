@@ -38,19 +38,19 @@ html.dark input {
   color: #000;
 }
 
-  .card{
-    width:32%;
-  }
+
 
 @media (min-width: 1178px) {
-
+  .card{
+    width:42%;
+  }
   .subcard {
     max-width: 360px;
   }
   #parentContainer {
     margin-left: 360px;
   }
-  .sidebar {
+  aside {
     position: fixed;
   }
 }

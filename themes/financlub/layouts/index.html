@@ -1,10 +1,8 @@
 {{ define "main" }}
-<div class="columns is-multiline is-full-mobile is-fullheight">
     {{ $paginator := .Paginate ( .Site.RegularPages) }}
     {{ range $paginator.Pages }}
       {{ .Render "summary" }}
     {{ end }}
-    </div>
 {{ if $paginator.HasPrev }}
   <a href="{{ $paginator.Prev.URL }}">«Previous </a>
 {{ end }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
