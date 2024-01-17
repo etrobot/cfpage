@@ -28,3 +28,36 @@ height: 100%;
 code[data-lang=text] {
   text-wrap: wrap;
 }
+
+html.dark {
+  background-color: #212129;
+  color: #ccc;
+}
+
+html.dark input {
+  color: #000;
+}
+
+
+
+@media (min-width: 1178px) {
+  .card{
+    width:42%;
+  }
+  .subcard {
+    max-width: 360px;
+  }
+  #parentContainer {
+    margin-left: 360px;
+  }
+  aside {
+    position: fixed;
+  }
+}
+
+.title {
+  background: linear-gradient(to right, #4085f3, aqua);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
