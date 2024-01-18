@@ -4,9 +4,14 @@
       {{ .Render "summary" }}
     {{ end }}
 {{ if $paginator.HasPrev }}
+<div class="card flex flex-col rounded-xl my-1 p-4 mx-1">
   <a href="{{ $paginator.Prev.URL }}">«Previous </a>
+</div>
 {{ end }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 {{ if $paginator.HasNext }}
+<div class="card flex flex-col rounded-xl my-1 p-4 mx-1">
   <a href="{{ $paginator.Next.URL }}"> Next»</a>
+</div>
+
 {{ end }}
 {{ end }}

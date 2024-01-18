@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html class="has-navbar-fixed-top">
+<html>
 
 {{ partial "head.html" . }}
 
-<body class="theme-body">
+<body>
   {{ partial "navbar.html" . }}
-    <section >
+    <section class="m-8">
       <main id="parentContainer" class="flex flex-wrap m-2">
         {{ block "main" . }}
         <!-- The part of the page that begins to differ between templates -->

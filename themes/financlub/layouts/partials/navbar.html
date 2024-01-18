@@ -1,15 +1,21 @@
-<nav class="navbar is-fixed-top">
-  <div class="container">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="/">
-      <img src="/logo.png" width="112" height="28">
-    </a>
-    <a class="navbar-item" href="{{.Site.Params.social.github}}" target="_blank">
-      <i class="fab fa-github"></i>
-    </a>
-    <a class="navbar-item" href="{{.Site.Params.social.twitter}}" target="_blank">
-      <i class="fab fa-twitter"></i>
-    </a>
+<nav class="bg-gray-800 fixed top-0 w-full z-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex">
+      <a class="flex-shrink-0 flex items-center" href="/">
+        <img src="/logo.png" width="112" height="28">
+      </a>
+      <a href="{{.Site.Params.social.github}}" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="{{.Site.Params.social.twitter}}" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+    <div class="ml-auto">
+        {{ range .Site.Taxonomies.category.Alphabetical }}
+      <a class="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" href="{{ "category/" | relURL }}{{ .Name | urlize }}">{{ .Name }}</a>
+  {{ end }}
+    </div>
+  </div>
+  <div class="flex">
     <span class="navbar-burger burger" data-target="navbarMenuHero1">
       <span></span>
       <span></span>
@@ -17,11 +23,5 @@
     </span>
   </div>
   <div id="navbarMenuHero1" class="navbar-menu">
-  <div class="navbar-end">
-  {{ range .Site.Taxonomies.category.Alphabetical }}
-      <a class="navbar-item" href="{{ "category/" | relURL }}{{ .Name | urlize }}">{{ .Name }}</a>
-  {{ end }}
-</div>
-</div>
-</div>
+
 </nav>

@@ -3,7 +3,7 @@
       {{$categoryName:= .Params.category | urlize }}
 <div class="max-w-3xl flex flex-col rounded-xl my-1 p-4 bg-gray-500 bg-opacity-5 mx-1">
     <div class="flex w-full items-center space-x-2 max-w-screen-lg">
-        <span class="w-16 h-10 rounded overflow-hidden">
+        <span class="w-16 h-16 rounded overflow-hidden">
               <img class="is-rounded" src="/avatar/{{$authorName}}.jpg" alt="{{$authorName}}">
         </span>
         <span class="text-sm w-full">
@@ -16,7 +16,6 @@
     <article class="content">
       {{ .Content }}
     </article>
-    <p class="subtitle is-6">Tags:</p>
     <div class="tags are-small">
       {{ range .Params.tags }}
         <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}" class="tag subtitle is-7 is-dark">{{ . }}</a>
