@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="has-navbar-fixed-top">
+<html>
 
 <head>
   <title>
@@ -36,19 +36,29 @@ if (!doNotTrack) {
 
 </head>
 
-<body class="theme-body">
-  <nav class="navbar is-fixed-top">
-  <div class="container">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="/">
-      <img src="/logo.png" width="112" height="28">
-    </a>
-    <a class="navbar-item" href="https://github.com/etrobot/hugo-theme-financlub" target="_blank">
-      <i class="fab fa-github"></i>
-    </a>
-    <a class="navbar-item" href="https://twitter.com/etrobot" target="_blank">
-      <i class="fab fa-twitter"></i>
-    </a>
+<body>
+  <nav class="bg-gray-800 fixed top-0 w-full z-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex">
+      <a class="flex-shrink-0 flex items-center" href="/">
+        <img src="/logo.png" width="112" height="28">
+      </a>
+      <a href="https://github.com/etrobot/hugo-theme-financlub" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://twitter.com/etrobot" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+    <div class="ml-auto">
+        
+      <a class="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" href="/category/flash">flash</a>
+  
+      <a class="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" href="/category/info">info</a>
+  
+      <a class="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" href="/category/insight">insight</a>
+  
+    </div>
+  </div>
+  <div class="flex">
     <span class="navbar-burger burger" data-target="navbarMenuHero1">
       <span></span>
       <span></span>
@@ -56,19 +66,9 @@ if (!doNotTrack) {
     </span>
   </div>
   <div id="navbarMenuHero1" class="navbar-menu">
-  <div class="navbar-end">
-  
-      <a class="navbar-item" href="/category/flash">flash</a>
-  
-      <a class="navbar-item" href="/category/info">info</a>
-  
-      <a class="navbar-item" href="/category/insight">insight</a>
-  
-</div>
-</div>
-</div>
+
 </nav>
-    <section >
+    <section class="m-8">
       <main id="parentContainer" class="flex flex-wrap m-2">
         
     <div class="flex flex-wrap m-2">
@@ -90,7 +90,7 @@ if (!doNotTrack) {
       
       
       
-      <a class="mt-2 text-sm overflow-hidden h-80" href="https://aicube.fun/post/73aa894ee8bb/">
+      <a class="mt-2 text-sm overflow-hidden h-30" href="https://aicube.fun/post/73aa894ee8bb/">
         本文讨论了人工智能在伦理、社会、经济和安全方面的影响，以及对AI的理解和应用的重要性。文章还分享了一些与人工智能相关的其他文章。
       </a>
       <a href="/post/73aa894ee8bb/">……</a>
@@ -115,7 +115,7 @@ if (!doNotTrack) {
       
       
       
-      <a class="mt-2 text-sm overflow-hidden h-80" href="https://aicube.fun/post/cd79999cd43d/">
+      <a class="mt-2 text-sm overflow-hidden h-30" href="https://aicube.fun/post/cd79999cd43d/">
         这篇文章探讨了芝加哥举办墨西哥独立日庆典与美国拉丁裔传统月的相关内容。文章还介绍了Medium上的一些关于传统和身份故事的作家和他们的作品。同时，还分享了一些周末读物的主题和内容。
       </a>
       <a href="/post/cd79999cd43d/">……</a>
@@ -140,7 +140,7 @@ if (!doNotTrack) {
       
       
       
-      <a class="mt-2 text-sm overflow-hidden h-80" href="https://aicube.fun/post/392dcfc78792/">
+      <a class="mt-2 text-sm overflow-hidden h-30" href="https://aicube.fun/post/392dcfc78792/">
         Medium十月最受欢迎的故事、最受关注的句子和作者更新。本文分享了一些十月份的关键数据、值得关注的故事、公司更新等。希望读者可以了解Medium发生了什么，并提出对于Medium的改进和希望看到的内容。
       </a>
       <a href="/post/392dcfc78792/">……</a>
@@ -165,7 +165,7 @@ if (!doNotTrack) {
       
       
       
-      <a class="mt-2 text-sm overflow-hidden h-80" href="https://aicube.fun/post/c9357ca425f2/">
+      <a class="mt-2 text-sm overflow-hidden h-30" href="https://aicube.fun/post/c9357ca425f2/">
         本文是 Medium 平台 12 月份的总结，内容包括了本月最受欢迎的故事和句子，还有一些关于 2023 年的统计数据和产品更新。文章还分享了关于如何回顾过去一年并制定 2024 年决心的话题。
       </a>
       <a href="/post/c9357ca425f2/">……</a>
@@ -190,7 +190,7 @@ if (!doNotTrack) {
       
       
       
-      <a class="mt-2 text-sm overflow-hidden h-80" href="https://aicube.fun/post/agi-the-next-phase-of-general-artificial-intelligence/">
+      <a class="mt-2 text-sm overflow-hidden h-30" href="https://aicube.fun/post/agi-the-next-phase-of-general-artificial-intelligence/">
         2022年的Large Language Modle呈现前所未有的超强理解能力和联想创作能力，让世界看到AGI的雏形。2023年科技行业巨头纷纷FOMO，发布自己的大模型，参数越来越大。而开源界则热衷于放出参数量较小的模型，给大模型加上各种能力的Agent以及钻研Prompt Engineering。 由于Agent解决了大模型在计算、记忆
       </a>
       <a href="/post/agi-the-next-phase-of-general-artificial-intelligence/">……</a>

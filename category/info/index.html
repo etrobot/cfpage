@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="has-navbar-fixed-top">
+<html>
 
 <head>
   <title>
@@ -36,19 +36,29 @@ if (!doNotTrack) {
 
 </head>
 
-<body class="theme-body">
-  <nav class="navbar is-fixed-top">
-  <div class="container">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="/">
-      <img src="/logo.png" width="112" height="28">
-    </a>
-    <a class="navbar-item" href="https://github.com/etrobot/hugo-theme-financlub" target="_blank">
-      <i class="fab fa-github"></i>
-    </a>
-    <a class="navbar-item" href="https://twitter.com/etrobot" target="_blank">
-      <i class="fab fa-twitter"></i>
-    </a>
+<body>
+  <nav class="bg-gray-800 fixed top-0 w-full z-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex">
+      <a class="flex-shrink-0 flex items-center" href="/">
+        <img src="/logo.png" width="112" height="28">
+      </a>
+      <a href="https://github.com/etrobot/hugo-theme-financlub" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://twitter.com/etrobot" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+    <div class="ml-auto">
+        
+      <a class="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" href="/category/flash">flash</a>
+  
+      <a class="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" href="/category/info">info</a>
+  
+      <a class="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" href="/category/insight">insight</a>
+  
+    </div>
+  </div>
+  <div class="flex">
     <span class="navbar-burger burger" data-target="navbarMenuHero1">
       <span></span>
       <span></span>
@@ -56,19 +66,9 @@ if (!doNotTrack) {
     </span>
   </div>
   <div id="navbarMenuHero1" class="navbar-menu">
-  <div class="navbar-end">
-  
-      <a class="navbar-item" href="/category/flash">flash</a>
-  
-      <a class="navbar-item" href="/category/info">info</a>
-  
-      <a class="navbar-item" href="/category/insight">insight</a>
-  
-</div>
-</div>
-</div>
+
 </nav>
-    <section >
+    <section class="m-8">
       <main id="parentContainer" class="flex flex-wrap m-2">
         
     <div class="flex flex-wrap m-2">
@@ -90,7 +90,7 @@ if (!doNotTrack) {
       
       
       
-      <a class="mt-2 text-sm overflow-hidden h-80" href="https://aicube.fun/post/20231210-08_12/">
+      <a class="mt-2 text-sm overflow-hidden h-30" href="https://aicube.fun/post/20231210-08_12/">
         人工智能最新资讯 2023年12月9日 @llama_index 一种扩展RAG系统的强有力方式是允许查询结构化和非结构化数据。不仅仅是做top-k，而是编写一个可以针对您的数据系统执行的DSL。 我们现在完全支持以下向量数据库的精确匹配和范围查询： @qdrant_engine @weaviate_io @trychroma @pinecone 我们还在postgres中有一个特殊案例，其中DSL可以直接提示LLM编写pgvector S
       </a>
       <a href="/post/20231210-08_12/">……</a>

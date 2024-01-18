@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="has-navbar-fixed-top">
+<html>
 
 <head>
   <title>
@@ -36,19 +36,29 @@ if (!doNotTrack) {
 
 </head>
 
-<body class="theme-body">
-  <nav class="navbar is-fixed-top">
-  <div class="container">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="/">
-      <img src="/logo.png" width="112" height="28">
-    </a>
-    <a class="navbar-item" href="https://github.com/etrobot/hugo-theme-financlub" target="_blank">
-      <i class="fab fa-github"></i>
-    </a>
-    <a class="navbar-item" href="https://twitter.com/etrobot" target="_blank">
-      <i class="fab fa-twitter"></i>
-    </a>
+<body>
+  <nav class="bg-gray-800 fixed top-0 w-full z-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex">
+      <a class="flex-shrink-0 flex items-center" href="/">
+        <img src="/logo.png" width="112" height="28">
+      </a>
+      <a href="https://github.com/etrobot/hugo-theme-financlub" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://twitter.com/etrobot" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+    <div class="ml-auto">
+        
+      <a class="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" href="/category/flash">flash</a>
+  
+      <a class="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" href="/category/info">info</a>
+  
+      <a class="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" href="/category/insight">insight</a>
+  
+    </div>
+  </div>
+  <div class="flex">
     <span class="navbar-burger burger" data-target="navbarMenuHero1">
       <span></span>
       <span></span>
@@ -56,26 +66,16 @@ if (!doNotTrack) {
     </span>
   </div>
   <div id="navbarMenuHero1" class="navbar-menu">
-  <div class="navbar-end">
-  
-      <a class="navbar-item" href="/category/flash">flash</a>
-  
-      <a class="navbar-item" href="/category/info">info</a>
-  
-      <a class="navbar-item" href="/category/insight">insight</a>
-  
-</div>
-</div>
-</div>
+
 </nav>
-    <section >
+    <section class="m-8">
       <main id="parentContainer" class="flex flex-wrap m-2">
         
       
       
 <div class="max-w-3xl flex flex-col rounded-xl my-1 p-4 bg-gray-500 bg-opacity-5 mx-1">
     <div class="flex w-full items-center space-x-2 max-w-screen-lg">
-        <span class="w-16 h-10 rounded overflow-hidden">
+        <span class="w-16 h-16 rounded overflow-hidden">
               <img class="is-rounded" src="/avatar/frank-lin.jpg" alt="frank-lin">
         </span>
         <span class="text-sm w-full">
@@ -149,7 +149,6 @@ if (!doNotTrack) {
 <p>你可以选择各式各样的主题，比如电动车、奢侈品……账号和列表靠自己筛选，在环境变量里面修改target和info即可~ 希望大家能借助这个Python脚本成为各个细分领域的大（juan）咖（wang）!</p>
 
     </article>
-    <p class="subtitle is-6">Tags:</p>
     <div class="tags are-small">
       
         <a href="https://aicube.fun/tags/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8" class="tag subtitle is-7 is-dark">字节跳动</a>
