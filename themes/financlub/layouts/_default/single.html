@@ -13,7 +13,7 @@
             <span class="">{{ .Date.Format (.Site.Params.dateFormat | default "2006-01-02") }}</span>
         </span>
   </div>
-    <article class="content">
+    <article >
       {{ .Content }}
     </article>
     <div class="tags are-small">
@@ -21,12 +21,12 @@
         <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}" class="tag subtitle is-7 is-dark">{{ . }}</a>
       {{ end }}
       </div>
-    <div class="block">
+    <div >
         {{ with .PrevInSection }}
-        <p class="subtitle is-6 m-1">Previous Post: <a class="link" href="{{ .Permalink }}">{{.Title}}</a></p>
+        <p >Previous Post: <a class="link" href="{{ .Permalink }}">{{.Title}}</a></p>
         {{ end }}
         {{ with .NextInSection }}
-        <p class="subtitle is-6 m-1">Next Post: <a class="link" href="{{ .Permalink }}">{{.Title}}</a></p>
+        <p >Next Post: <a class="link" href="{{ .Permalink }}">{{.Title}}</a></p>
         {{ end }}
     </div>
 {{ end }}

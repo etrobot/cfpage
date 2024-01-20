@@ -1,53 +1,15 @@
 <!DOCTYPE html>
 <html>
-
 {{ partial "head.html" . }}
-
 <body>
-  {{ partial "navbar.html" . }}
-    <section class="m-8">
-      <main id="parentContainer" class="flex flex-wrap m-2">
-        {{ block "main" . }}
-        <!-- The part of the page that begins to differ between templates -->
-        {{ end }}
-      </main>
-      {{ partial "sidebar.html" . }}
-    </section>
-  {{ partial "footer.html" . }}
-</body>
-<script type="text/javascript">
-$(function() {
-  $('.modal-background, .modal-close').click(function() {
-    $('html').removeClass('is-clipped');
-    $(this).parent().removeClass('is-active');
-  });
-  $('.theme-switcher').change(function(e) {
-    if (e.target.value) {
-      window.location.href = '/bulmaswatch/' + e.target.value;
-    }
-  });
-
-  // Get all "navbar-burger" elements
-  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-  // Check if there are any nav burgers
-  if ($navbarBurgers.length > 0) {
-
-    // Add a click event on each of them
-    $navbarBurgers.forEach(function ($el) {
-      $el.addEventListener('click', () => {
-
-        // Get the target from the "data-target" attribute
-        var target = $el.dataset.target;
-        var $target = document.getElementById(target);
-
-        // Toggle the class on both the "navbar-burger" and the "navbar-menu"
-        $el.classList.toggle('is-active');
-        $target.classList.toggle('is-active');
-
-      });
-    });
-  }
-});
-  </script>
+    {{ partial "navbar.html" . }}
+    <main class="flex flex-wrap mt-12">
+          <section class="flex flex-wrap max-w-screen-lg">
+                {{ block "main" . }}
+                {{ end }}
+          </section>
+          {{ partial "sidebar.html" . }}
+    </main>
+      {{ partial "footer.html" . }}
+    </body>
 </html>

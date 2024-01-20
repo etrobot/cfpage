@@ -1,15 +1,15 @@
 {{$authorName:= .Params.author | urlize }}
 {{$categoryName:= .Params.category | urlize }}
 <div class="card flex flex-col rounded-xl my-1 p-4 bg-gray-500 bg-opacity-5 mx-1">
-    <div class="flex w-full items-center space-x-2 max-w-screen-lg">
-        <span class="w-16 h-10 rounded overflow-hidden">
-              <img class="is-rounded" src="/avatar/{{$authorName}}.jpg" alt="{{$authorName}}">
+    <div class="flex w-full items-center space-x-1 max-w-screen-lg">
+        <span class="w-14 h-12 rounded-full overflow-hidden">
+              <img src="/avatar/{{$authorName}}.jpg" alt="{{$authorName}}">
         </span>
-        <span class="text-sm w-full">
+        <span class="w-full">
             <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
             <a href="/author/{{$authorName}}" class="">{{.Params.author}}</a>
             <a href="/category/{{$categoryName}}" class=" {{index .Site.Params.catesytles $categoryName }}">{{.Params.category}}</a>
-            <span class="">{{ .Date.Format (.Site.Params.dateFormat | default "2006-01-02") }}</span>
+            <span >{{ .Date.Format (.Site.Params.dateFormat | default "2006-01-02") }}</span>
         </span>
   </div>
       {{ $last := path.Base .RelPermalink }}

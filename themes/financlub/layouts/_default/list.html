@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <div class="flex flex-wrap m-2">
+    <div class="flex flex-wrap">
       {{ range (.Paginate .Pages).Pages }}
         {{ .Render "summary" }}
         {{ end }}

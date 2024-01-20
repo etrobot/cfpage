@@ -1,34 +1,3 @@
-.container{
-  max-width:1080px;
-}
-.card {
-height: 100%;
-}
-
-.theme-body{
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.theme-padding-mobile {
-  padding: 1rem 0;
-}
-
-@media screen and (max-width: 768px) {
-  .theme-padding-mobile {
-      padding: .6rem;
-    }
-}
-
-.pagination {
-    justify-content: space-between;
-}
-
-code[data-lang=text] {
-  text-wrap: wrap;
-}
-
 html.dark {
   background-color: #212129;
   color: #ccc;
@@ -39,25 +8,8 @@ html.dark input {
 }
 
 
-
 @media (min-width: 1178px) {
   .card{
-    width:42%;
+    width:49%;
   }
-  .subcard {
-    max-width: 360px;
-  }
-  #parentContainer {
-    margin-left: 360px;
-  }
-  aside {
-    position: fixed;
-  }
-}
-
-.title {
-  background: linear-gradient(to right, #4085f3, aqua);
-  -webkit-background-clip: text;
-  color: transparent;
-  display: inline-block;
 }
