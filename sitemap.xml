@@ -1,172 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://aicube.fun/tags/ai/</loc>
-    <lastmod>2024-01-14T08:14:11+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/</loc>
-    <lastmod>2024-01-14T08:14:11+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/author/</loc>
-    <lastmod>2024-01-14T08:14:11+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/category/</loc>
-    <lastmod>2024-01-14T08:14:11+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/context/</loc>
-    <lastmod>2024-01-14T08:14:11+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/economy/</loc>
-    <lastmod>2024-01-14T08:14:11+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/ethics/</loc>
-    <lastmod>2024-01-14T08:14:11+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/category/insight/</loc>
-    <lastmod>2024-01-14T08:14:11+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/author/medium/</loc>
-    <lastmod>2024-01-14T08:14:11+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/</loc>
-    <lastmod>2024-01-14T08:14:11+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/safety/</loc>
-    <lastmod>2024-01-14T08:14:11+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/society/</loc>
-    <lastmod>2024-01-14T08:14:11+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/</loc>
-    <lastmod>2024-01-14T08:14:11+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/technology/</loc>
-    <lastmod>2024-01-14T08:14:11+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/73aa894ee8bb/</loc>
-    <lastmod>2024-01-14T08:14:11+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/cultural-diversity/</loc>
-    <lastmod>2024-01-14T08:13:43+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/heritage/</loc>
-    <lastmod>2024-01-14T08:13:43+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/history/</loc>
-    <lastmod>2024-01-14T08:13:43+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/literature/</loc>
-    <lastmod>2024-01-14T08:13:43+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/cd79999cd43d/</loc>
-    <lastmod>2024-01-14T08:13:43+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/medium/</loc>
-    <lastmod>2024-01-14T08:12:47+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/392dcfc78792/</loc>
-    <lastmod>2024-01-14T08:12:47+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2024-01-14T08:12:47+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/%E6%9C%88%E5%BA%A6%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2024-01-14T08:12:47+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/medium-blog/</loc>
-    <lastmod>2024-01-14T08:11:58+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/medium-staff/</loc>
-    <lastmod>2024-01-14T08:11:58+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/resolutions/</loc>
-    <lastmod>2024-01-14T08:11:58+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/year-in-review/</loc>
-    <lastmod>2024-01-14T08:11:58+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/c9357ca425f2/</loc>
-    <lastmod>2024-01-14T08:11:58+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/category/flash/</loc>
-    <lastmod>2023-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/author/frank-lin/</loc>
-    <lastmod>2023-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/gpt-4/</loc>
-    <lastmod>2023-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/coze-workflow-tutor/</loc>
-    <lastmod>2023-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8/</loc>
-    <lastmod>2023-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/coze_instruction/</loc>
-    <lastmod>2023-12-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/gpt_and_github_actions/</loc>
-    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/chatgpt/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/category/info/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/20231210-08_12/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/%E6%9C%80%E6%96%B0%E8%B5%84%E8%AE%AF/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/%E7%82%92%E8%82%A1/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/write-quant-code-with-chatgpt/</loc>
-    <lastmod>2023-12-10T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/20231203-06_05/</loc>
-    <lastmod>2023-12-03T06:04:49+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/%E6%95%88%E7%8E%87%E6%8F%90%E5%8D%87/</loc>
-    <lastmod>2023-12-03T06:04:49+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96/</loc>
-    <lastmod>2023-12-03T06:04:49+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/tags/%E8%83%BD%E8%80%97%E5%87%8F%E5%B0%91/</loc>
-    <lastmod>2023-12-03T06:04:49+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/how-to-replicate-miaoya-camera/</loc>
-    <lastmod>2023-08-06T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/gpt-speed-reading-stock-market-information/</loc>
-    <lastmod>2023-05-28T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/agi-the-next-phase-of-general-artificial-intelligence/</loc>
-    <lastmod>2023-04-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/gpt-4-can-clone-itself-without-training/</loc>
-    <lastmod>2023-04-09T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/i-learned-ios-development-in-1-month-with-the-help-of-gpt/</loc>
-    <lastmod>2023-03-12T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/post/chatgpt-make-you-think-like-an-analyst/</loc>
-    <lastmod>2023-03-10T08:12:48+00:00</lastmod>
-  </url><url>
-    <loc>https://aicube.fun/social/</loc>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/</loc>
+<lastmod>2024-03-08</lastmod>
+</url>
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/blog</loc>
+<lastmod>2024-03-08</lastmod>
+</url>
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/projects</loc>
+<lastmod>2024-03-08</lastmod>
+</url>
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/tags</loc>
+<lastmod>2024-03-08</lastmod>
+</url>
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231203-06_05</loc>
+<lastmod>2023-12-02T22:04:49.000Z</lastmod>
+</url>
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231210-08_12</loc>
+<lastmod>2023-12-10T00:12:48.000Z</lastmod>
+</url>
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/AGI The Next Phase of General Artificial Intelligence</loc>
+<lastmod>2023-04-22T16:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/ChatGPT make you think like an analyst</loc>
+<lastmod>2023-03-10T00:12:48.000Z</lastmod>
+</url>
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/GPT speed reading stock market information</loc>
+<lastmod>2023-05-28T00:12:48.000Z</lastmod>
+</url>
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/GPT-4 can clone itself without training</loc>
+<lastmod>2023-04-09T00:12:48.000Z</lastmod>
+</url>
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/How to Replicate Miaoya Camera</loc>
+<lastmod>2023-08-06T00:12:48.000Z</lastmod>
+</url>
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/I learned iOS development in 1 month with the help of GPT</loc>
+<lastmod>2023-03-12T00:12:48.000Z</lastmod>
+</url>
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/Write Quant Code with ChatGPT</loc>
+<lastmod>2023-12-10T00:12:48.000Z</lastmod>
+</url>
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/coze_instruction</loc>
+<lastmod>2023-12-15T16:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/gpt_and_github_actions</loc>
+<lastmod>2023-12-13T16:00:00.000Z</lastmod>
+</url>
 </urlset>
