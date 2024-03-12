@@ -1,0 +1,34 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>AIcube.fun</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>en-us</language>
+      <managingEditor>address@yoursite.com (Frank Lin)</managingEditor>
+      <webMaster>address@yoursite.com (Frank Lin)</webMaster>
+      <lastBuildDate>Fri, 15 Dec 2023 16:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/字节跳动/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/coze_instruction</guid>
+    <title>快速玩转字节的Coze机器人创建平台</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/coze_instruction</link>
+    undefined
+    <pubDate>Fri, 15 Dec 2023 16:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>字节跳动</category><category>GPT-4</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/gpt_and_github_actions</guid>
+    <title>如何免费创建7x24资讯秘书</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/gpt_and_github_actions</link>
+    undefined
+    <pubDate>Wed, 13 Dec 2023 16:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>字节跳动</category><category>GPT-4</category>
+  </item>
+
+    </channel>
+  </rss>

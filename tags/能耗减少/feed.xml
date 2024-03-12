@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>AIcube.fun</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>en-us</language>
+      <managingEditor>address@yoursite.com (Frank Lin)</managingEditor>
+      <webMaster>address@yoursite.com (Frank Lin)</webMaster>
+      <lastBuildDate>Sat, 02 Dec 2023 22:04:49 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/能耗减少/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231203-06_05</guid>
+    <title>探索人工智能模型优化之路</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231203-06_05</link>
+    undefined
+    <pubDate>Sat, 02 Dec 2023 22:04:49 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>人工智能</category><category>模型优化</category><category>能耗减少</category><category>效率提升</category>
+  </item>
+
+    </channel>
+  </rss>

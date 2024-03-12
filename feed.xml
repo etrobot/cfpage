@@ -1,0 +1,124 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>AIcube.fun</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>en-us</language>
+      <managingEditor>address@yoursite.com (Frank Lin)</managingEditor>
+      <webMaster>address@yoursite.com (Frank Lin)</webMaster>
+      <lastBuildDate>Fri, 15 Dec 2023 16:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/coze_instruction</guid>
+    <title>快速玩转字节的Coze机器人创建平台</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/coze_instruction</link>
+    undefined
+    <pubDate>Fri, 15 Dec 2023 16:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>字节跳动</category><category>GPT-4</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/gpt_and_github_actions</guid>
+    <title>如何免费创建7x24资讯秘书</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/gpt_and_github_actions</link>
+    undefined
+    <pubDate>Wed, 13 Dec 2023 16:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>字节跳动</category><category>GPT-4</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231210-08_12</guid>
+    <title>人工智能最新资讯</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231210-08_12</link>
+    undefined
+    <pubDate>Sun, 10 Dec 2023 00:12:48 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>人工智能</category><category>最新资讯</category><category>技术</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/Write Quant Code with ChatGPT</guid>
+    <title>让ChatGPT写出量化代码</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/Write Quant Code with ChatGPT</link>
+    undefined
+    <pubDate>Sun, 10 Dec 2023 00:12:48 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>ChatGPT</category><category>提示工程</category><category>炒股</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231203-06_05</guid>
+    <title>探索人工智能模型优化之路</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231203-06_05</link>
+    undefined
+    <pubDate>Sat, 02 Dec 2023 22:04:49 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>人工智能</category><category>模型优化</category><category>能耗减少</category><category>效率提升</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/How to Replicate Miaoya Camera</guid>
+    <title>如何复刻妙鸭相机</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/How to Replicate Miaoya Camera</link>
+    undefined
+    <pubDate>Sun, 06 Aug 2023 00:12:48 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>人工智能</category><category>最新资讯</category><category>技术</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/GPT speed reading stock market information</guid>
+    <title>GPT量子速读股市资讯，分析师危</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/GPT speed reading stock market information</link>
+    undefined
+    <pubDate>Sun, 28 May 2023 00:12:48 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>ChatGPT</category><category>提示工程</category><category>炒股</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/AGI The Next Phase of General Artificial Intelligence</guid>
+    <title>AGI通用人工智能的下一阶段</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/AGI The Next Phase of General Artificial Intelligence</link>
+    undefined
+    <pubDate>Sat, 22 Apr 2023 16:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>人工智能</category><category>最新资讯</category><category>技术</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/GPT-4 can clone itself without training</guid>
+    <title>无须训练即可让GPT-4克隆自我</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/GPT-4 can clone itself without training</link>
+    undefined
+    <pubDate>Sun, 09 Apr 2023 00:12:48 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>人工智能</category><category>最新资讯</category><category>技术</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/I learned iOS development in 1 month with the help of GPT</guid>
+    <title>一个月学会Swift和Go并做出一个iOS APP</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/I learned iOS development in 1 month with the help of GPT</link>
+    undefined
+    <pubDate>Sun, 12 Mar 2023 00:12:48 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>ChatGPT</category><category>提示工程</category><category>炒股</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/ChatGPT make you think like an analyst</guid>
+    <title>ChatGPT实现分析师思维</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/ChatGPT make you think like an analyst</link>
+    undefined
+    <pubDate>Fri, 10 Mar 2023 00:12:48 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>ChatGPT</category><category>提示工程</category><category>炒股</category>
+  </item>
+
+    </channel>
+  </rss>

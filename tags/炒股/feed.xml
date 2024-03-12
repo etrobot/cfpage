@@ -1,0 +1,54 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>AIcube.fun</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>en-us</language>
+      <managingEditor>address@yoursite.com (Frank Lin)</managingEditor>
+      <webMaster>address@yoursite.com (Frank Lin)</webMaster>
+      <lastBuildDate>Fri, 10 Mar 2023 00:12:48 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/炒股/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/ChatGPT make you think like an analyst</guid>
+    <title>ChatGPT实现分析师思维</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/ChatGPT make you think like an analyst</link>
+    undefined
+    <pubDate>Fri, 10 Mar 2023 00:12:48 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>ChatGPT</category><category>提示工程</category><category>炒股</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/GPT speed reading stock market information</guid>
+    <title>GPT量子速读股市资讯，分析师危</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/GPT speed reading stock market information</link>
+    undefined
+    <pubDate>Sun, 28 May 2023 00:12:48 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>ChatGPT</category><category>提示工程</category><category>炒股</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/I learned iOS development in 1 month with the help of GPT</guid>
+    <title>一个月学会Swift和Go并做出一个iOS APP</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/I learned iOS development in 1 month with the help of GPT</link>
+    undefined
+    <pubDate>Sun, 12 Mar 2023 00:12:48 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>ChatGPT</category><category>提示工程</category><category>炒股</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/Write Quant Code with ChatGPT</guid>
+    <title>让ChatGPT写出量化代码</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/Write Quant Code with ChatGPT</link>
+    undefined
+    <pubDate>Sun, 10 Dec 2023 00:12:48 GMT</pubDate>
+    <author>address@yoursite.com (Frank Lin)</author>
+    <category>ChatGPT</category><category>提示工程</category><category>炒股</category>
+  </item>
+
+    </channel>
+  </rss>
